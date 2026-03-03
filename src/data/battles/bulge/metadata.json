@@ -1,0 +1,48 @@
+{
+  "id": "bulge",
+  "name": "Battle of the Bulge",
+  "description": "The last major German offensive on the Western Front during World War II. Launched through the densely forested Ardennes region on December 16, 1944, the surprise attack created a 'bulge' in the Allied lines. Despite initial German success, fierce American resistance at key locations like Bastogne and St. Vith, combined with Allied air superiority once weather cleared, turned the tide. The battle ended January 25, 1945, with the Germans pushed back to their starting positions.",
+  "startDate": "1944-12-16",
+  "endDate": "1945-01-25",
+  "bounds": {
+    "north": 50.55,
+    "south": 49.85,
+    "east": 6.45,
+    "west": 5.50
+  },
+  "center": [5.95, 50.15],
+  "defaultZoom": 9,
+  "belligerents": [
+    { "side": "allied", "name": "United States", "color": "#2563eb" },
+    { "side": "axis", "name": "Germany", "color": "#dc2626" }
+  ],
+  "overview": {
+    "context": "By December 1944, the Western Allies had liberated France and Belgium and were approaching the German border. Hitler conceived a desperate gamble: a massive surprise offensive through the thinly-held Ardennes forest sector to split the British and American armies, capture the vital port of Antwerp, and force a negotiated peace. Allied intelligence dismissed the possibility of a major attack through the rugged, forested terrain — the same mistake made in 1940.",
+    "germanPlan": "Operation Wacht am Rhein (Watch on the Rhine) assembled three armies — the 6th Panzer Army under SS General Dietrich in the north, the 5th Panzer Army under General von Manteuffel in the center, and the 7th Army under General Brandenberger in the south. The plan called for a rapid breakthrough on a 60-mile front, with panzer spearheads racing 100 miles to Antwerp within two weeks. Success depended on bad weather grounding Allied air power, capturing Allied fuel dumps intact, and achieving complete surprise. Two of those three conditions were met.",
+    "keyPhases": [
+      {
+        "heading": "Phase 1: Surprise & Breakthrough (Dec 16–19)",
+        "body": "At 05:30 on December 16, 1,600 German artillery pieces opened fire along an 80-mile front. 250,000 German troops struck four inexperienced or resting American divisions of VIII Corps. The attack achieved complete surprise. In the north, fierce resistance at Elsenborn Ridge held the 6th Panzer Army. In the center, the 5th Panzer Army broke through rapidly, encircling two regiments of the 106th Infantry Division. SS Kampfgruppe Peiper raced west, committing the Malmedy Massacre en route."
+      },
+      {
+        "heading": "Phase 2: Bastogne & St. Vith (Dec 19–23)",
+        "body": "Two critical road junctions became the focal points of the battle. The 7th Armored Division organized a heroic defense of St. Vith that delayed the German timetable by six crucial days before withdrawing on December 22. The 101st Airborne Division rushed to Bastogne by truck and was encircled by December 20. When ordered to surrender, Brig. Gen. McAuliffe replied with the legendary \"NUTS!\" Meanwhile, Patton began the remarkable feat of turning Third Army 90 degrees northward in winter."
+      },
+      {
+        "heading": "Phase 3: The Tide Turns (Dec 23–26)",
+        "body": "On December 23, the overcast skies finally cleared. Over 2,000 Allied aircraft sortied, devastating German supply lines and armor caught in the open. C-47 transports dropped desperately needed supplies to Bastogne. On Christmas Day, the 2nd Panzer Division reached within four miles of the Meuse River at Celles — the deepest German penetration — before being destroyed by Allied air and ground forces. On December 26, Patton's 4th Armored Division broke through to relieve Bastogne."
+      },
+      {
+        "heading": "Phase 4: Counterattack & Collapse (Dec 28–Jan 25)",
+        "body": "With the offensive stalled, Hitler reluctantly halted the advance toward the Meuse. On January 1, the Luftwaffe launched Operation Bodenplatte against Allied airfields, destroying 465 aircraft but losing 277 irreplaceable pilots. On January 3, the Allies launched their counteroffensive. First Army attacked from the north while Third Army pushed from the south. On January 16, the two armies linked up at Houffalize. By January 25, all German gains had been erased."
+      }
+    ],
+    "outcome": "The Battle of the Bulge was the largest and bloodiest battle fought by the United States in World War II. Germany's last strategic reserve of men, armor, and fuel was squandered in a gamble that never had realistic prospects of reaching Antwerp. The failure of the offensive left Germany unable to resist the Allied advance into the Rhineland and the Soviet winter offensive in the East. The war in Europe would end four months later.",
+    "casualties": {
+      "allied": "~89,000 total (19,000 killed, 47,500 wounded, 23,000 captured/missing)",
+      "axis": "~100,000 total (12,000 killed, 38,000 wounded, 30,000 captured/missing). 800 tanks, 1,000 aircraft lost.",
+      "note": "Civilian casualties in the Ardennes region exceeded 3,000, including massacres at Malmedy, Stavelot, and other locations by SS troops."
+    },
+    "legacy": "The Battle of the Bulge demonstrated both the resilience of the American soldier and the futility of Germany's strategic position by late 1944. The defense of Bastogne became one of the most celebrated episodes in U.S. military history. The battle consumed Germany's last operational reserves, accelerating the end of the war. The Malmedy Massacre and other atrocities led to the Malmedy massacre trial, one of the most controversial war crimes proceedings of the postwar period."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Siegfried Line (West Wall)", "type": "defensive_line", "side": "axis" },
+      "geometry": { "type": "LineString", "coordinates": [[6.40, 50.50], [6.38, 50.40], [6.35, 50.30], [6.38, 50.20], [6.40, 50.10], [6.42, 50.00], [6.45, 49.90], [6.48, 49.80]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Elsenborn Ridge Defenses", "type": "defensive_line", "side": "allied" },
+      "geometry": { "type": "LineString", "coordinates": [[6.18, 50.48], [6.22, 50.44], [6.26, 50.40], [6.28, 50.38]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "St. Vith Perimeter", "type": "defensive_line", "side": "allied" },
+      "geometry": { "type": "LineString", "coordinates": [[6.05, 50.30], [6.10, 50.32], [6.18, 50.30], [6.20, 50.25], [6.15, 50.22], [6.08, 50.23], [6.05, 50.26], [6.05, 50.30]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Bastogne Perimeter", "type": "defensive_line", "side": "allied" },
+      "geometry": { "type": "LineString", "coordinates": [[5.65, 50.02], [5.70, 50.04], [5.78, 50.03], [5.80, 49.99], [5.78, 49.95], [5.72, 49.94], [5.66, 49.96], [5.65, 50.00], [5.65, 50.02]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Dragon's Teeth Anti-Tank", "type": "anti_tank", "side": "axis" },
+      "geometry": { "type": "LineString", "coordinates": [[6.38, 50.45], [6.36, 50.35], [6.38, 50.25]] }
+    }
+  ]
+}

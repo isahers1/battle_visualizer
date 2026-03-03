@@ -1,0 +1,128 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Ardennes Forest (North)", "type": "forest" },
+      "geometry": { "type": "Polygon", "coordinates": [[[5.70, 50.30], [6.10, 50.30], [6.20, 50.40], [6.30, 50.45], [6.10, 50.50], [5.70, 50.45], [5.70, 50.30]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ardennes Forest (Central)", "type": "forest" },
+      "geometry": { "type": "Polygon", "coordinates": [[[5.60, 50.00], [6.00, 49.95], [6.20, 50.05], [6.30, 50.20], [6.10, 50.25], [5.80, 50.20], [5.60, 50.10], [5.60, 50.00]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Schnee Eifel Ridge", "type": "hill" },
+      "geometry": { "type": "Polygon", "coordinates": [[[6.25, 50.18], [6.35, 50.18], [6.38, 50.28], [6.30, 50.30], [6.22, 50.28], [6.25, 50.18]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Elsenborn Ridge", "type": "hill" },
+      "geometry": { "type": "Polygon", "coordinates": [[[6.18, 50.40], [6.30, 50.38], [6.32, 50.46], [6.20, 50.48], [6.18, 50.40]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Our River", "type": "river" },
+      "geometry": { "type": "LineString", "coordinates": [[6.15, 50.30], [6.18, 50.22], [6.20, 50.15], [6.18, 50.08], [6.15, 50.00], [6.12, 49.92]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Meuse River", "type": "river" },
+      "geometry": { "type": "LineString", "coordinates": [[5.48, 50.50], [5.50, 50.40], [5.48, 50.30], [5.45, 50.20], [5.42, 50.10], [5.45, 50.00], [5.50, 49.90]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Salm River", "type": "river" },
+      "geometry": { "type": "LineString", "coordinates": [[5.88, 50.40], [5.90, 50.32], [5.92, 50.25], [5.95, 50.18]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Sauer River", "type": "river" },
+      "geometry": { "type": "LineString", "coordinates": [[6.35, 49.88], [6.20, 49.90], [6.05, 49.88], [5.90, 49.85]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Bastogne", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.72, 49.99] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "St. Vith", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [6.12, 50.28] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Malmedy", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [6.03, 50.42] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Houffalize", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.78, 50.13] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Clervaux", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [6.06, 49.97] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Wiltz", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.93, 49.97] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Echternach", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [6.42, 49.81] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stavelot", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.93, 50.39] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "La Gleize", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.85, 50.38] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stoumont", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.82, 50.39] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Celles", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.09, 50.23] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Marche-en-Famenne", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [5.34, 50.22] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Luxembourg City", "type": "town" },
+      "geometry": { "type": "Point", "coordinates": [6.13, 49.61] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Losheim Gap", "type": "field" },
+      "geometry": { "type": "Polygon", "coordinates": [[[6.28, 50.28], [6.35, 50.28], [6.38, 50.34], [6.32, 50.35], [6.28, 50.28]]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Main Road Network", "type": "road" },
+      "geometry": { "type": "MultiLineString", "coordinates": [
+        [[5.72, 49.99], [5.78, 50.13], [5.85, 50.22], [5.93, 50.28]],
+        [[5.72, 49.99], [5.90, 49.98], [6.06, 49.97], [6.12, 50.05]],
+        [[5.72, 49.99], [5.65, 50.02], [5.55, 50.05]],
+        [[5.72, 49.99], [5.75, 49.90], [5.80, 49.82]],
+        [[6.12, 50.28], [6.03, 50.28], [5.93, 50.28]],
+        [[6.12, 50.28], [6.12, 50.18], [6.12, 50.05]],
+        [[6.12, 50.28], [6.22, 50.30], [6.30, 50.32]]
+      ]}
+    }
+  ]
+}

@@ -1,0 +1,1148 @@
+{
+  "12th-army-group": {
+    "id": "12th-army-group",
+    "name": "12th Army Group",
+    "shortName": "12th AG",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "army_group",
+    "parentId": null,
+    "childIds": [
+      "first-army",
+      "third-army"
+    ],
+    "commander": "Gen. Omar Bradley",
+    "equipment": [],
+    "history": "Primary American army group in the European Theater, headquartered in Luxembourg City.",
+    "personnel": {
+      "officers": 152,
+      "ncos": 285,
+      "enlisted": 463
+    }
+  },
+  "first-army": {
+    "id": "first-army",
+    "name": "First United States Army",
+    "shortName": "1st Army",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "army",
+    "parentId": "12th-army-group",
+    "childIds": [
+      "v-corps",
+      "viii-corps",
+      "xviii-airborne-corps"
+    ],
+    "commander": "Lt. Gen. Courtney Hodges",
+    "equipment": [],
+    "history": "Bore the brunt of the initial German assault in the Ardennes. Temporarily placed under British command during the battle.",
+    "personnel": {
+      "officers": 210,
+      "ncos": 380,
+      "enlisted": 610
+    }
+  },
+  "third-army": {
+    "id": "third-army",
+    "name": "Third United States Army",
+    "shortName": "3rd Army",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "army",
+    "parentId": "12th-army-group",
+    "childIds": [
+      "iii-corps",
+      "xii-corps"
+    ],
+    "commander": "Lt. Gen. George S. Patton Jr.",
+    "equipment": [],
+    "history": "Executed a remarkable 90-degree turn to relieve Bastogne, moving three divisions over 100 miles in 48 hours during winter conditions.",
+    "personnel": {
+      "officers": 195,
+      "ncos": 355,
+      "enlisted": 580
+    }
+  },
+  "v-corps": {
+    "id": "v-corps",
+    "name": "V Corps",
+    "shortName": "V Corps",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "first-army",
+    "childIds": [
+      "2nd-infantry",
+      "99th-infantry"
+    ],
+    "commander": "Maj. Gen. Leonard Gerow",
+    "equipment": [],
+    "history": "Held the northern shoulder of the Bulge, preventing German expansion northward.",
+    "personnel": {
+      "officers": 145,
+      "ncos": 270,
+      "enlisted": 435
+    }
+  },
+  "viii-corps": {
+    "id": "viii-corps",
+    "name": "VIII Corps",
+    "shortName": "VIII Corps",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "first-army",
+    "childIds": [
+      "106th-infantry",
+      "28th-infantry",
+      "4th-infantry"
+    ],
+    "commander": "Maj. Gen. Troy Middleton",
+    "equipment": [],
+    "history": "Thinly stretched across the Ardennes, bore the full weight of the initial German attack along the Schnee Eifel.",
+    "personnel": {
+      "officers": 140,
+      "ncos": 260,
+      "enlisted": 420
+    }
+  },
+  "xviii-airborne-corps": {
+    "id": "xviii-airborne-corps",
+    "name": "XVIII Airborne Corps",
+    "shortName": "XVIII Abn",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "first-army",
+    "childIds": [
+      "82nd-airborne",
+      "101st-airborne"
+    ],
+    "commander": "Maj. Gen. Matthew Ridgway",
+    "equipment": [],
+    "history": "Rushed to the Ardennes from strategic reserve in France. Deployed to plug gaps in the American lines.",
+    "personnel": {
+      "officers": 130,
+      "ncos": 245,
+      "enlisted": 405
+    }
+  },
+  "iii-corps": {
+    "id": "iii-corps",
+    "name": "III Corps",
+    "shortName": "III Corps",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "third-army",
+    "childIds": [
+      "4th-armored",
+      "26th-infantry",
+      "80th-infantry"
+    ],
+    "commander": "Maj. Gen. John Millikin",
+    "equipment": [],
+    "history": "Spearheaded Patton's counterattack to relieve Bastogne from the south.",
+    "personnel": {
+      "officers": 138,
+      "ncos": 255,
+      "enlisted": 425
+    }
+  },
+  "xii-corps": {
+    "id": "xii-corps",
+    "name": "XII Corps",
+    "shortName": "XII Corps",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "third-army",
+    "childIds": [
+      "5th-infantry"
+    ],
+    "commander": "Maj. Gen. Manton Eddy",
+    "equipment": [],
+    "history": "Protected the southern flank of the Bulge and supported the counteroffensive.",
+    "personnel": {
+      "officers": 132,
+      "ncos": 248,
+      "enlisted": 410
+    }
+  },
+  "2nd-infantry": {
+    "id": "2nd-infantry",
+    "name": "2nd Infantry Division",
+    "shortName": "2nd Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "v-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Walter Robertson",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      },
+      {
+        "name": "M1917 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 54
+      }
+    ],
+    "history": "Held Elsenborn Ridge, a critical defensive position on the northern shoulder of the Bulge.",
+    "personnel": {
+      "officers": 770,
+      "ncos": 3200,
+      "enlisted": 10230
+    }
+  },
+  "99th-infantry": {
+    "id": "99th-infantry",
+    "name": "99th Infantry Division",
+    "shortName": "99th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "v-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Walter Lauer",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      },
+      {
+        "name": "M1917 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      }
+    ],
+    "history": "A green division that fought tenaciously at the Battle of Elsenborn Ridge despite being heavily outnumbered.",
+    "personnel": {
+      "officers": 745,
+      "ncos": 3100,
+      "enlisted": 10155
+    }
+  },
+  "106th-infantry": {
+    "id": "106th-infantry",
+    "name": "106th Infantry Division",
+    "shortName": "106th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Alan Jones",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      },
+      {
+        "name": "M1917 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      }
+    ],
+    "history": "Arrived at the front only 5 days before the offensive. Two of its three regiments were encircled and forced to surrender on the Schnee Eifel — one of the largest mass surrenders in US history.",
+    "personnel": {
+      "officers": 760,
+      "ncos": 3150,
+      "enlisted": 10090
+    }
+  },
+  "28th-infantry": {
+    "id": "28th-infantry",
+    "name": "28th Infantry Division",
+    "shortName": "28th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Norman Cota",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      },
+      {
+        "name": "M1917 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 5
+      }
+    ],
+    "history": "Defending along the Our River, fought a desperate delaying action that significantly slowed the German advance toward Bastogne.",
+    "personnel": {
+      "officers": 710,
+      "ncos": 2950,
+      "enlisted": 9540
+    }
+  },
+  "4th-infantry": {
+    "id": "4th-infantry",
+    "name": "4th Infantry Division",
+    "shortName": "4th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Raymond Barton",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      },
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 10
+      }
+    ],
+    "history": "Defended the southern shoulder of the Bulge in the Echternach-Luxembourg area.",
+    "personnel": {
+      "officers": 725,
+      "ncos": 3050,
+      "enlisted": 9825
+    }
+  },
+  "82nd-airborne": {
+    "id": "82nd-airborne",
+    "name": "82nd Airborne Division",
+    "shortName": "82nd Abn",
+    "side": "allied",
+    "unitType": "airborne",
+    "echelon": "division",
+    "parentId": "xviii-airborne-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. James Gavin",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6000
+      },
+      {
+        "name": "M1A1 Bazooka",
+        "category": "Anti-Tank",
+        "quantity": 557
+      }
+    ],
+    "history": "Deployed to the Werbomont-Stoumont area to block Kampfgruppe Peiper's advance. Fought along the Salm River.",
+    "personnel": {
+      "officers": 640,
+      "ncos": 2850,
+      "enlisted": 8710
+    }
+  },
+  "101st-airborne": {
+    "id": "101st-airborne",
+    "name": "101st Airborne Division",
+    "shortName": "101st Abn",
+    "side": "allied",
+    "unitType": "airborne",
+    "echelon": "division",
+    "parentId": "xviii-airborne-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Anthony McAuliffe",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 8000
+      },
+      {
+        "name": "M1A1 Bazooka",
+        "category": "Anti-Tank",
+        "quantity": 600
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 36
+      }
+    ],
+    "history": "Rushed to Bastogne by truck convoy on Dec 19. Held the vital crossroads town under complete encirclement. McAuliffe's famous 'NUTS!' reply to German surrender demand became legendary.",
+    "personnel": {
+      "officers": 665,
+      "ncos": 2920,
+      "enlisted": 8915
+    }
+  },
+  "7th-armored": {
+    "id": "7th-armored",
+    "name": "7th Armored Division",
+    "shortName": "7th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Robert Hasbrouck",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 187
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      }
+    ],
+    "history": "Rushed to St. Vith and organized a horseshoe-shaped defensive perimeter that held for 6 critical days.",
+    "personnel": {
+      "officers": 540,
+      "ncos": 2680,
+      "enlisted": 7580
+    }
+  },
+  "9th-armored": {
+    "id": "9th-armored",
+    "name": "9th Armored Division",
+    "shortName": "9th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. John Leonard",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      }
+    ],
+    "history": "Elements fought at both St. Vith and Bastogne. Combat Command B fought alongside the 7th Armored at St. Vith.",
+    "personnel": {
+      "officers": 535,
+      "ncos": 2650,
+      "enlisted": 7515
+    }
+  },
+  "4th-armored": {
+    "id": "4th-armored",
+    "name": "4th Armored Division",
+    "shortName": "4th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Hugh Gaffey",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      }
+    ],
+    "history": "Spearhead of Patton's relief force. Broke through to Bastogne on December 26 after fierce fighting.",
+    "personnel": {
+      "officers": 545,
+      "ncos": 2700,
+      "enlisted": 7655
+    }
+  },
+  "26th-infantry": {
+    "id": "26th-infantry",
+    "name": "26th Infantry Division",
+    "shortName": "26th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Willard Paul",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      }
+    ],
+    "history": "Part of Patton's relief force attacking northward toward Bastogne.",
+    "personnel": {
+      "officers": 740,
+      "ncos": 3100,
+      "enlisted": 10160
+    }
+  },
+  "80th-infantry": {
+    "id": "80th-infantry",
+    "name": "80th Infantry Division",
+    "shortName": "80th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Horace McBride",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      }
+    ],
+    "history": "Advanced alongside the 4th Armored Division during the Bastogne relief operation.",
+    "personnel": {
+      "officers": 735,
+      "ncos": 3080,
+      "enlisted": 10085
+    }
+  },
+  "5th-infantry": {
+    "id": "5th-infantry",
+    "name": "5th Infantry Division",
+    "shortName": "5th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "xii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. S. LeRoy Irwin",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6500
+      }
+    ],
+    "history": "Protected the southern shoulder of the Bulge near the Sauer River.",
+    "personnel": {
+      "officers": 730,
+      "ncos": 3060,
+      "enlisted": 10010
+    }
+  },
+  "army-group-b": {
+    "id": "army-group-b",
+    "name": "Army Group B",
+    "shortName": "AG B",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "army_group",
+    "parentId": null,
+    "childIds": [
+      "6th-panzer-army",
+      "5th-panzer-army",
+      "7th-army"
+    ],
+    "commander": "GFM Walter Model",
+    "equipment": [],
+    "history": "Commanded all German forces in the Ardennes offensive (Operation Watch on the Rhine).",
+    "personnel": {
+      "officers": 168,
+      "ncos": 310,
+      "enlisted": 522
+    }
+  },
+  "6th-panzer-army": {
+    "id": "6th-panzer-army",
+    "name": "6th Panzer Army",
+    "shortName": "6th Pz Army",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "army",
+    "parentId": "army-group-b",
+    "childIds": [
+      "i-ss-panzer-corps",
+      "lxvii-corps"
+    ],
+    "commander": "SS-Oberstgruppenführer Sepp Dietrich",
+    "equipment": [],
+    "history": "Main effort of the offensive, attacking in the north toward Liège. Composed primarily of SS divisions.",
+    "personnel": {
+      "officers": 225,
+      "ncos": 395,
+      "enlisted": 680
+    }
+  },
+  "5th-panzer-army": {
+    "id": "5th-panzer-army",
+    "name": "5th Panzer Army",
+    "shortName": "5th Pz Army",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "army",
+    "parentId": "army-group-b",
+    "childIds": [
+      "xlvii-panzer-corps",
+      "lxvi-corps",
+      "lviii-panzer-corps"
+    ],
+    "commander": "Gen. Hasso von Manteuffel",
+    "equipment": [],
+    "history": "Achieved the deepest penetration of the offensive, nearly reaching the Meuse River. Encircled Bastogne.",
+    "personnel": {
+      "officers": 205,
+      "ncos": 370,
+      "enlisted": 625
+    }
+  },
+  "7th-army": {
+    "id": "7th-army",
+    "name": "7th Army",
+    "shortName": "7th Army",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "army",
+    "parentId": "army-group-b",
+    "childIds": [
+      "lxxx-corps"
+    ],
+    "commander": "Gen. Erich Brandenberger",
+    "equipment": [],
+    "history": "Protected the southern flank of the offensive. Composed mostly of infantry without significant armor.",
+    "personnel": {
+      "officers": 175,
+      "ncos": 320,
+      "enlisted": 555
+    }
+  },
+  "i-ss-panzer-corps": {
+    "id": "i-ss-panzer-corps",
+    "name": "I SS Panzer Corps",
+    "shortName": "I SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "corps",
+    "parentId": "6th-panzer-army",
+    "childIds": [
+      "1st-ss-panzer",
+      "12th-ss-panzer",
+      "12th-vgd",
+      "3rd-para"
+    ],
+    "commander": "SS-Gruppenführer Hermann Priess",
+    "equipment": [],
+    "history": "Spearhead of the 6th Panzer Army. Included the infamous Kampfgruppe Peiper.",
+    "personnel": {
+      "officers": 160,
+      "ncos": 290,
+      "enlisted": 500
+    }
+  },
+  "lxvii-corps": {
+    "id": "lxvii-corps",
+    "name": "LXVII Corps",
+    "shortName": "LXVII Corps",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "6th-panzer-army",
+    "childIds": [
+      "277th-vgd",
+      "326th-vgd"
+    ],
+    "commander": "Gen. Otto Hitzfeld",
+    "equipment": [],
+    "history": "Infantry corps supporting the northern attack, tasked with breaking through the Elsenborn Ridge area.",
+    "personnel": {
+      "officers": 125,
+      "ncos": 235,
+      "enlisted": 390
+    }
+  },
+  "xlvii-panzer-corps": {
+    "id": "xlvii-panzer-corps",
+    "name": "XLVII Panzer Corps",
+    "shortName": "XLVII Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "corps",
+    "parentId": "5th-panzer-army",
+    "childIds": [
+      "2nd-panzer",
+      "panzer-lehr",
+      "26th-vgd"
+    ],
+    "commander": "Gen. Heinrich von Lüttwitz",
+    "equipment": [],
+    "history": "Encircled Bastogne and pushed furthest west toward the Meuse. Demanded Bastogne's surrender.",
+    "personnel": {
+      "officers": 155,
+      "ncos": 280,
+      "enlisted": 485
+    }
+  },
+  "lxvi-corps": {
+    "id": "lxvi-corps",
+    "name": "LXVI Corps",
+    "shortName": "LXVI Corps",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "5th-panzer-army",
+    "childIds": [
+      "18th-vgd",
+      "62nd-vgd"
+    ],
+    "commander": "Gen. Walther Lucht",
+    "equipment": [],
+    "history": "Attacked St. Vith and encircled two regiments of the 106th Infantry Division.",
+    "personnel": {
+      "officers": 120,
+      "ncos": 225,
+      "enlisted": 375
+    }
+  },
+  "lviii-panzer-corps": {
+    "id": "lviii-panzer-corps",
+    "name": "LVIII Panzer Corps",
+    "shortName": "LVIII Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "corps",
+    "parentId": "5th-panzer-army",
+    "childIds": [
+      "116th-panzer",
+      "560th-vgd"
+    ],
+    "commander": "Gen. Walter Krüger",
+    "equipment": [],
+    "history": "Attacked through the center of the Ardennes, aiming for crossings over the Ourthe River.",
+    "personnel": {
+      "officers": 140,
+      "ncos": 260,
+      "enlisted": 450
+    }
+  },
+  "lxxx-corps": {
+    "id": "lxxx-corps",
+    "name": "LXXX Corps",
+    "shortName": "LXXX Corps",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "7th-army",
+    "childIds": [
+      "352nd-vgd"
+    ],
+    "commander": "Gen. Franz Beyer",
+    "equipment": [],
+    "history": "Southern-most corps in the offensive, protecting the left flank.",
+    "personnel": {
+      "officers": 115,
+      "ncos": 218,
+      "enlisted": 367
+    }
+  },
+  "1st-ss-panzer": {
+    "id": "1st-ss-panzer",
+    "name": "1st SS Panzer Division Leibstandarte",
+    "shortName": "1st SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "i-ss-panzer-corps",
+    "childIds": [],
+    "commander": "SS-Oberführer Wilhelm Mohnke",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 34
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 37
+      },
+      {
+        "name": "Tiger II",
+        "category": "Heavy Tank",
+        "quantity": 30
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 2000
+      }
+    ],
+    "history": "Elite SS division. Kampfgruppe Peiper, its spearhead battle group, committed the Malmedy massacre and advanced furthest before being cut off.",
+    "personnel": {
+      "officers": 920,
+      "ncos": 4200,
+      "enlisted": 14880
+    }
+  },
+  "12th-ss-panzer": {
+    "id": "12th-ss-panzer",
+    "name": "12th SS Panzer Division Hitlerjugend",
+    "shortName": "12th SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "i-ss-panzer-corps",
+    "childIds": [],
+    "commander": "SS-Standartenführer Hugo Kraas",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 37
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 41
+      }
+    ],
+    "history": "Young but experienced SS division that fought fiercely around the twin villages of Krinkelt-Rocherath.",
+    "personnel": {
+      "officers": 850,
+      "ncos": 3800,
+      "enlisted": 13350
+    }
+  },
+  "12th-vgd": {
+    "id": "12th-vgd",
+    "name": "12th Volksgrenadier Division",
+    "shortName": "12th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "i-ss-panzer-corps",
+    "childIds": [],
+    "commander": "Generalmajor Gerhard Engel",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 500
+      }
+    ],
+    "history": "Infantry division that opened the gap for the 12th SS Panzer Division in the Losheim Gap area.",
+    "personnel": {
+      "officers": 420,
+      "ncos": 2200,
+      "enlisted": 7380
+    }
+  },
+  "3rd-para": {
+    "id": "3rd-para",
+    "name": "3rd Parachute Division",
+    "shortName": "3rd Para",
+    "side": "axis",
+    "unitType": "airborne",
+    "echelon": "division",
+    "parentId": "i-ss-panzer-corps",
+    "childIds": [],
+    "commander": "Generalmajor Wadehn",
+    "equipment": [
+      {
+        "name": "FG 42",
+        "category": "Automatic Rifle",
+        "quantity": 1200
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 3000
+      }
+    ],
+    "history": "Elite parachute infantry supporting the northern attack. Despite their name, they fought as regular infantry.",
+    "personnel": {
+      "officers": 580,
+      "ncos": 3200,
+      "enlisted": 11220
+    }
+  },
+  "277th-vgd": {
+    "id": "277th-vgd",
+    "name": "277th Volksgrenadier Division",
+    "shortName": "277th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxvii-corps",
+    "childIds": [],
+    "commander": "Oberst Wilhelm Viebig",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Attacked the 99th Infantry Division positions near the Elsenborn Ridge.",
+    "personnel": {
+      "officers": 390,
+      "ncos": 2050,
+      "enlisted": 6960
+    }
+  },
+  "326th-vgd": {
+    "id": "326th-vgd",
+    "name": "326th Volksgrenadier Division",
+    "shortName": "326th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxvii-corps",
+    "childIds": [],
+    "commander": "Oberst Erwin Kaschner",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Supported the attack on Elsenborn Ridge alongside the 277th VGD.",
+    "personnel": {
+      "officers": 385,
+      "ncos": 2030,
+      "enlisted": 6885
+    }
+  },
+  "2nd-panzer": {
+    "id": "2nd-panzer",
+    "name": "2nd Panzer Division",
+    "shortName": "2nd Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "xlvii-panzer-corps",
+    "childIds": [],
+    "commander": "Oberst Meinrad von Lauchert",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 58
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 27
+      }
+    ],
+    "history": "Reached the furthest western point of the offensive near Celles, just 4 miles from the Meuse River, before being destroyed by Allied forces.",
+    "personnel": {
+      "officers": 620,
+      "ncos": 3100,
+      "enlisted": 9680
+    }
+  },
+  "panzer-lehr": {
+    "id": "panzer-lehr",
+    "name": "Panzer Lehr Division",
+    "shortName": "Pz Lehr",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "xlvii-panzer-corps",
+    "childIds": [],
+    "commander": "Generalleutnant Fritz Bayerlein",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 30
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 27
+      }
+    ],
+    "history": "Veteran demonstration division that attempted to bypass Bastogne to the south.",
+    "personnel": {
+      "officers": 590,
+      "ncos": 2950,
+      "enlisted": 9260
+    }
+  },
+  "26th-vgd": {
+    "id": "26th-vgd",
+    "name": "26th Volksgrenadier Division",
+    "shortName": "26th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "xlvii-panzer-corps",
+    "childIds": [],
+    "commander": "Generalmajor Heinz Kokott",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 300
+      }
+    ],
+    "history": "Formed the infantry cordon around Bastogne during the siege.",
+    "personnel": {
+      "officers": 410,
+      "ncos": 2150,
+      "enlisted": 7240
+    }
+  },
+  "18th-vgd": {
+    "id": "18th-vgd",
+    "name": "18th Volksgrenadier Division",
+    "shortName": "18th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxvi-corps",
+    "childIds": [],
+    "commander": "Generalmajor Günther Hoffmann-Schönborn",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Encircled and captured two regiments of the US 106th Infantry Division on the Schnee Eifel.",
+    "personnel": {
+      "officers": 415,
+      "ncos": 2180,
+      "enlisted": 7305
+    }
+  },
+  "62nd-vgd": {
+    "id": "62nd-vgd",
+    "name": "62nd Volksgrenadier Division",
+    "shortName": "62nd VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxvi-corps",
+    "childIds": [],
+    "commander": "Oberst Friedrich Kittel",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Supported the encirclement at St. Vith alongside the 18th VGD.",
+    "personnel": {
+      "officers": 395,
+      "ncos": 2080,
+      "enlisted": 7025
+    }
+  },
+  "116th-panzer": {
+    "id": "116th-panzer",
+    "name": "116th Panzer Division",
+    "shortName": "116th Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "lviii-panzer-corps",
+    "childIds": [],
+    "commander": "Generalmajor Siegfried von Waldenburg",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 26
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 25
+      }
+    ],
+    "history": "Known as the 'Greyhound Division'. Attempted to reach the Meuse via Hotton and Marche.",
+    "personnel": {
+      "officers": 580,
+      "ncos": 2900,
+      "enlisted": 9120
+    }
+  },
+  "560th-vgd": {
+    "id": "560th-vgd",
+    "name": "560th Volksgrenadier Division",
+    "shortName": "560th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lviii-panzer-corps",
+    "childIds": [],
+    "commander": "Oberst Rudolf Langhauser",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Infantry support for the 116th Panzer Division in the central sector.",
+    "personnel": {
+      "officers": 380,
+      "ncos": 2010,
+      "enlisted": 6810
+    }
+  },
+  "352nd-vgd": {
+    "id": "352nd-vgd",
+    "name": "352nd Volksgrenadier Division",
+    "shortName": "352nd VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxxx-corps",
+    "childIds": [],
+    "commander": "Oberst Erich Schmidt",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      }
+    ],
+    "history": "Protected the southern flank of the offensive. Successor to the 352nd Division that defended Omaha Beach.",
+    "personnel": {
+      "officers": 400,
+      "ncos": 2100,
+      "enlisted": 7100
+    }
+  }
+}

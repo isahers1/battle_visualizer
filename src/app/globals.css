@@ -1,26 +1,341 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-allied: #2563eb;
+  --color-axis: #dc2626;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+  /* Win95 color palette */
+  --w95-surface: #c0c0c0;
+  --w95-surface-dark: #a0a0a0;
+  --w95-highlight: #ffffff;
+  --w95-shadow: #808080;
+  --w95-dark-shadow: #404040;
+  --w95-titlebar: #000080;
+  --w95-titlebar-inactive: #808080;
+  --w95-text: #000000;
+  --w95-window-bg: #c0c0c0;
+  --w95-sunken-bg: #ffffff;
+  --w95-selected: #000080;
+  --w95-selected-text: #ffffff;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ═══════════════════════════════════════════════════
+   Windows 95/98 Retro UI System
+   ═══════════════════════════════════════════════════ */
+
+/* Raised panel — the classic 3D "outset" look */
+.w95-raised {
+  background: var(--w95-surface);
+  border: 2px solid;
+  border-color: var(--w95-highlight) var(--w95-dark-shadow) var(--w95-dark-shadow) var(--w95-highlight);
+  box-shadow: inset 1px 1px 0 var(--w95-highlight), inset -1px -1px 0 var(--w95-shadow);
+}
+
+/* Sunken panel — for content wells, input fields */
+.w95-sunken {
+  background: var(--w95-sunken-bg);
+  border: 2px solid;
+  border-color: var(--w95-shadow) var(--w95-highlight) var(--w95-highlight) var(--w95-shadow);
+  box-shadow: inset 1px 1px 0 var(--w95-dark-shadow), inset -1px -1px 0 var(--w95-highlight);
+}
+
+/* Title bar — the classic blue gradient */
+.w95-titlebar {
+  background: linear-gradient(90deg, #000080, #1084d0);
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  letter-spacing: 0.02em;
+}
+
+/* Classic raised button */
+.w95-btn {
+  background: var(--w95-surface);
+  border: 2px solid;
+  border-color: var(--w95-highlight) var(--w95-dark-shadow) var(--w95-dark-shadow) var(--w95-highlight);
+  box-shadow: inset 1px 1px 0 var(--w95-highlight), inset -1px -1px 0 var(--w95-shadow);
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  color: var(--w95-text);
+  min-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w95-btn:active {
+  border-color: var(--w95-dark-shadow) var(--w95-highlight) var(--w95-highlight) var(--w95-dark-shadow);
+  box-shadow: inset 1px 1px 0 var(--w95-shadow), inset -1px -1px 0 var(--w95-highlight);
+  padding: 3px 7px 1px 9px;
+}
+
+.w95-btn:disabled {
+  color: var(--w95-shadow);
+  text-shadow: 1px 1px 0 var(--w95-highlight);
+  cursor: default;
+}
+
+/* Status bar — sunken segmented strip */
+.w95-statusbar {
+  background: var(--w95-surface);
+  border-top: 1px solid var(--w95-shadow);
+  padding: 2px 4px;
+  display: flex;
+  gap: 2px;
+}
+
+.w95-statusbar-cell {
+  border: 1px solid;
+  border-color: var(--w95-shadow) var(--w95-highlight) var(--w95-highlight) var(--w95-shadow);
+  padding: 1px 4px;
+  font-size: 11px;
+  color: var(--w95-text);
+  white-space: nowrap;
+}
+
+/* Group box — labeled fieldset style */
+.w95-groupbox {
+  border: 1px solid var(--w95-shadow);
+  box-shadow: 1px 1px 0 var(--w95-highlight);
+  padding: 8px 6px 6px;
+  position: relative;
+}
+
+.w95-groupbox-label {
+  position: absolute;
+  top: -7px;
+  left: 8px;
+  background: var(--w95-surface);
+  padding: 0 4px;
+  font-size: 11px;
+  font-weight: normal;
+  color: var(--w95-text);
+}
+
+/* Progress bar — Win95 style with segmented blocks */
+.w95-progress {
+  border: 2px solid;
+  border-color: var(--w95-shadow) var(--w95-highlight) var(--w95-highlight) var(--w95-shadow);
+  box-shadow: inset 1px 1px 0 var(--w95-dark-shadow);
+  height: 16px;
+  background: var(--w95-sunken-bg);
+  overflow: hidden;
+  padding: 1px;
+}
+
+.w95-progress-fill {
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #000080 0px,
+    #000080 8px,
+    transparent 8px,
+    transparent 10px
+  );
+}
+
+/* Retro font for the whole UI chrome */
+.w95-font {
+  font-family: "Tahoma", "MS Sans Serif", "Segoe UI", sans-serif;
+  font-size: 11px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+}
+
+/* ═══════════════════════════════════════════════════
+   MapLibre GL overrides
+   ═══════════════════════════════════════════════════ */
+.maplibregl-map {
+  font-family: inherit;
+}
+
+/* Retro warm map filter — aged paper / 90s terrain feel */
+.maplibregl-canvas {
+  filter: sepia(0.3) saturate(0.65) brightness(1.0) contrast(0.95)
+    hue-rotate(-8deg);
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px !important;
+}
+
+/* Fortification & combat popup styling — Win95 raised window */
+.fortification-popup .maplibregl-popup-content,
+.combat-popup .maplibregl-popup-content {
+  padding: 0;
+  border-radius: 0;
+  background: var(--w95-surface);
+  border: 2px solid;
+  border-color: var(--w95-highlight) var(--w95-dark-shadow) var(--w95-dark-shadow) var(--w95-highlight);
+  box-shadow: inset 1px 1px 0 var(--w95-highlight), inset -1px -1px 0 var(--w95-shadow);
+}
+
+.fortification-popup .maplibregl-popup-tip,
+.combat-popup .maplibregl-popup-tip {
+  border-top-color: var(--w95-surface);
+}
+
+/* Zoom hint dots — pulsing indicators for hidden units */
+.zoom-hint-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border-width: 1.5px;
+  border-style: solid;
+  animation: zoom-hint-pulse 2s ease-in-out infinite;
+}
+
+@keyframes zoom-hint-pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.4);
+  }
+}
+
+/* Scanline overlay for extra retro CRT feel */
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.015) 2px,
+    rgba(0, 0, 0, 0.015) 4px
+  );
+  z-index: 9999;
 }

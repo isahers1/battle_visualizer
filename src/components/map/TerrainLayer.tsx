@@ -1,0 +1,226 @@
+"use client";
+
+import { useState, useEffect, useCallback, useRef } from "react";
+import { Source, Layer, Popup, useMap } from "react-map-gl/maplibre";
+import { useStore } from "@/stores";
+import type {
+  FillLayerSpecification,
+  LineLayerSpecification,
+} from "maplibre-gl";
+
+const forestFill: FillLayerSpecification = {
+  id: "terrain-forest-fill",
+  type: "fill",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "forest"],
+  paint: {
+    "fill-color": "#3a7d32",
+    "fill-opacity": 0.15,
+  },
+};
+
+const hillFill: FillLayerSpecification = {
+  id: "terrain-hill-fill",
+  type: "fill",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "hill"],
+  paint: {
+    "fill-color": "#a07d3a",
+    "fill-opacity": 0.1,
+  },
+};
+
+const riverLine: LineLayerSpecification = {
+  id: "terrain-river",
+  type: "line",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "river"],
+  paint: {
+    "line-color": "#3b82f6",
+    "line-width": 2.5,
+    "line-opacity": 0.6,
+  },
+};
+
+const riverGlow: LineLayerSpecification = {
+  id: "terrain-river-glow",
+  type: "line",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "river"],
+  paint: {
+    "line-color": "#60a5fa",
+    "line-width": 7,
+    "line-opacity": [
+      "case",
+      ["boolean", ["feature-state", "hover"], false],
+      0.4,
+      0,
+    ],
+  },
+};
+
+const riverHitArea: LineLayerSpecification = {
+  id: "terrain-river-hit",
+  type: "line",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "river"],
+  paint: {
+    "line-color": "transparent",
+    "line-width": 16,
+    "line-opacity": 0,
+  },
+};
+
+const roadLine: LineLayerSpecification = {
+  id: "terrain-road",
+  type: "line",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "road"],
+  paint: {
+    "line-color": "#78716c",
+    "line-width": 2,
+    "line-opacity": 0.35,
+    "line-dasharray": [6, 2],
+  },
+};
+
+const INTERACTIVE_LAYERS = ["terrain-river", "terrain-river-hit"];
+
+interface PopupInfo {
+  lng: number;
+  lat: number;
+  name: string;
+}
+
+export function TerrainLayer() {
+  const terrain = useStore((s) => s.terrain);
+  const { current: mapRef } = useMap();
+  const [popupInfo, setPopupInfo] = useState<PopupInfo | null>(null);
+  const hoveredIdRef = useRef<number | null>(null);
+
+  const handleMouseMove = useCallback(
+    (e: maplibregl.MapMouseEvent) => {
+      if (!mapRef) return;
+      const map = mapRef.getMap();
+
+      if (!map.getLayer("terrain-river")) return;
+
+      const features = map.queryRenderedFeatures(e.point, {
+        layers: INTERACTIVE_LAYERS.filter((l) => map.getLayer(l)),
+      });
+
+      if (features.length > 0) {
+        map.getCanvas().style.cursor = "pointer";
+        const feature = features[0];
+        const fid = feature.id as number | undefined;
+
+        if (hoveredIdRef.current !== null && hoveredIdRef.current !== fid) {
+          map.setFeatureState(
+            { source: "terrain", id: hoveredIdRef.current },
+            { hover: false }
+          );
+        }
+        if (fid !== undefined) {
+          map.setFeatureState(
+            { source: "terrain", id: fid },
+            { hover: true }
+          );
+          hoveredIdRef.current = fid;
+        }
+
+        setPopupInfo({
+          lng: e.lngLat.lng,
+          lat: e.lngLat.lat,
+          name: feature.properties?.name ?? "River",
+        });
+      } else {
+        if (hoveredIdRef.current !== null) {
+          if (map.getSource("terrain")) {
+            map.setFeatureState(
+              { source: "terrain", id: hoveredIdRef.current },
+              { hover: false }
+            );
+          }
+          hoveredIdRef.current = null;
+        }
+        setPopupInfo(null);
+      }
+    },
+    [mapRef]
+  );
+
+  const handleMouseLeave = useCallback(() => {
+    if (!mapRef) return;
+    const map = mapRef.getMap();
+    if (hoveredIdRef.current !== null && map.getSource("terrain")) {
+      map.setFeatureState(
+        { source: "terrain", id: hoveredIdRef.current },
+        { hover: false }
+      );
+      hoveredIdRef.current = null;
+    }
+    setPopupInfo(null);
+  }, [mapRef]);
+
+  useEffect(() => {
+    if (!mapRef) return;
+    const map = mapRef.getMap();
+
+    map.on("mousemove", handleMouseMove);
+    map.on("mouseleave", handleMouseLeave);
+
+    return () => {
+      map.off("mousemove", handleMouseMove);
+      map.off("mouseleave", handleMouseLeave);
+    };
+  }, [mapRef, handleMouseMove, handleMouseLeave]);
+
+  if (!terrain) return null;
+
+  // Add numeric IDs for feature-state support
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const src = terrain as any;
+  const terrainWithIds = {
+    type: "FeatureCollection" as const,
+    features: src.features.map((f: Record<string, unknown>, i: number) => ({
+      ...f,
+      id: i,
+    })),
+  };
+
+  return (
+    <>
+      <Source id="terrain" type="geojson" data={terrainWithIds}>
+        <Layer {...forestFill} />
+        <Layer {...hillFill} />
+        <Layer {...riverHitArea} />
+        <Layer {...riverGlow} />
+        <Layer {...riverLine} />
+        <Layer {...roadLine} />
+      </Source>
+      {popupInfo && (
+        <Popup
+          longitude={popupInfo.lng}
+          latitude={popupInfo.lat}
+          closeButton={false}
+          closeOnClick={false}
+          anchor="bottom"
+          offset={12}
+          className="fortification-popup"
+        >
+          <div className="px-2 py-1.5 w95-font">
+            <div className="flex items-center gap-1.5">
+              <span
+                className="inline-block h-2 w-2"
+                style={{ backgroundColor: "#3b82f6" }}
+              />
+              <span className="font-bold text-[11px] text-black">
+                {popupInfo.name}
+              </span>
+            </div>
+          </div>
+        </Popup>
+      )}
+    </>
+  );
+}
