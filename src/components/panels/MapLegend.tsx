@@ -5,6 +5,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useStore } from "@/stores";
 import type { UnitType } from "@/types";
 
+const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 function LegendIcon({
   unitType,
   label,
@@ -15,7 +17,7 @@ function LegendIcon({
   return (
     <div className="flex items-center gap-2">
       <img
-        src={`/icons/units/allied-${unitType}.svg`}
+        src={`${base}/icons/units/allied-${unitType}.svg`}
         alt={unitType}
         className="flex-shrink-0"
         style={{ width: 22, height: "auto" }}
@@ -98,7 +100,7 @@ export function MapLegend() {
                 <div className="space-y-1 mt-1">
                   <div className="flex items-center gap-2">
                     <img
-                      src="/icons/units/allied-infantry.svg"
+                      src={`${base}/icons/units/allied-infantry.svg`}
                       alt="Allied"
                       style={{ width: 22, height: "auto" }}
                     />
@@ -108,7 +110,7 @@ export function MapLegend() {
                   </div>
                   <div className="flex items-center gap-2">
                     <img
-                      src="/icons/units/axis-infantry.svg"
+                      src={`${base}/icons/units/axis-infantry.svg`}
                       alt="Axis"
                       style={{ width: 22, height: "auto" }}
                     />

@@ -29,10 +29,10 @@ export function UnitIcon({
   const isDestroyed = status === "destroyed" || status === "surrendered";
   const opacity = isDestroyed ? 0.4 : 1;
 
-  // Build icon path: /icons/units/{side}-{unitType}-{echelon}.svg
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const iconFile = echelon
-    ? `/icons/units/${side}-${unitType}-${echelon}.svg`
-    : `/icons/units/${side}-${unitType}.svg`;
+    ? `${base}/icons/units/${side}-${unitType}-${echelon}.svg`
+    : `${base}/icons/units/${side}-${unitType}.svg`;
 
   return (
     <div
