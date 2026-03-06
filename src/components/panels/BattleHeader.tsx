@@ -42,10 +42,6 @@ export function BattleHeader() {
           <div className="w95-titlebar gap-2">
             <span className="text-[10px]">&#9776;</span>
             <span>{metadata.name}.exe</span>
-            <span className="ml-auto flex gap-0.5">
-              <span className="w95-btn !p-0 !min-h-[14px] w-[14px] flex items-center justify-center text-[9px] leading-none !border-[1px]">_</span>
-              <span className="w95-btn !p-0 !min-h-[14px] w-[14px] flex items-center justify-center text-[9px] leading-none !border-[1px]">&#x25A1;</span>
-            </span>
           </div>
           <div className="px-3 py-2 text-center">
             <div className="font-bold text-[12px] text-black tracking-tight">

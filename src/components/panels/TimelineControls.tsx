@@ -21,6 +21,13 @@ export function TimelineControls() {
   const stepForward = useStore((s) => s.stepForward);
   const stepBackward = useStore((s) => s.stepBackward);
   const setStep = useStore((s) => s.setStep);
+  const isPlaying = useStore((s) => s.isPlaying);
+  const togglePlay = useStore((s) => s.togglePlay);
+  const playbackSpeed = useStore((s) => s.playbackSpeed);
+  const setPlaybackSpeed = useStore((s) => s.setPlaybackSpeed);
+  const isCameraFollowEnabled = useStore((s) => s.isCameraFollowEnabled);
+  const toggleCameraFollow = useStore((s) => s.toggleCameraFollow);
+  const setPresentationMode = useStore((s) => s.setPresentationMode);
   const snapshot = useCurrentSnapshot();
   const [detailsOpen, setDetailsOpen] = useState(false);
 
@@ -44,6 +51,14 @@ export function TimelineControls() {
       } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
         e.preventDefault();
         handleForward();
+      } else if (e.key === " ") {
+        if (
+          e.target instanceof HTMLInputElement ||
+          e.target instanceof HTMLTextAreaElement
+        )
+          return;
+        e.preventDefault();
+        togglePlay();
       } else if (e.key === "d" || e.key === "D") {
         if (
           e.target instanceof HTMLInputElement ||
@@ -55,7 +70,7 @@ export function TimelineControls() {
     }
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [handleBack, handleForward]);
+  }, [handleBack, handleForward, togglePlay]);
 
   if (totalSteps === 0) return null;
 
@@ -208,7 +223,25 @@ export function TimelineControls() {
               disabled={!canGoBack || isAnimating}
               aria-label="Previous step"
             >
-              &#9668; Prev
+              &#9668;
+            </button>
+
+            <button
+              className="w95-btn"
+              onClick={togglePlay}
+              aria-label={isPlaying ? "Pause" : "Play"}
+              title="Space to toggle"
+            >
+              {isPlaying ? "\u23F8" : "\u25B6"}
+            </button>
+
+            <button
+              className="w95-btn"
+              onClick={handleForward}
+              disabled={!canGoForward || isAnimating}
+              aria-label="Next step"
+            >
+              &#9658;
             </button>
 
             {/* Step dots as a sunken "track" */}
@@ -235,13 +268,54 @@ export function TimelineControls() {
               ))}
             </div>
 
+            {/* Speed selector */}
+            <div className="flex items-center gap-0.5">
+              {([1, 2, 4] as const).map((speed) => (
+                <button
+                  key={speed}
+                  className="w95-btn !px-1 !min-h-[18px]"
+                  onClick={() => setPlaybackSpeed(speed)}
+                  style={playbackSpeed === speed ? {
+                    borderColor: "#808080 #ffffff #ffffff #808080",
+                    boxShadow: "inset 1px 1px 0 #808080, inset -1px -1px 0 #ffffff",
+                  } : {}}
+                >
+                  <span className="text-[9px]">{speed}x</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Secondary controls row */}
+          <div className="flex items-center gap-1 mt-1">
             <button
-              className="w95-btn"
-              onClick={handleForward}
-              disabled={!canGoForward || isAnimating}
-              aria-label="Next step"
+              className="w95-btn !px-2 !min-h-[20px] flex items-center gap-1.5"
+              onClick={toggleCameraFollow}
+              style={isCameraFollowEnabled ? {
+                borderColor: "#808080 #ffffff #ffffff #808080",
+                boxShadow: "inset 1px 1px 0 #808080, inset -1px -1px 0 #ffffff",
+              } : {}}
+              title="Auto-follow the action"
             >
-              Next &#9658;
+              <span
+                className="inline-flex items-center justify-center w-[13px] h-[13px] text-[10px] leading-none flex-shrink-0"
+                style={{
+                  border: "1px solid #808080",
+                  borderColor: "#808080 #ffffff #ffffff #808080",
+                  boxShadow: "inset 1px 1px 0 #404040",
+                  background: "#ffffff",
+                }}
+              >
+                {isCameraFollowEnabled ? <span style={{ color: "#000000", fontWeight: "bold", fontSize: "11px", marginTop: "-1px" }}>&#10003;</span> : null}
+              </span>
+              <span className="text-[10px]">Follow</span>
+            </button>
+            <button
+              className="w95-btn !px-2 !min-h-[20px] ml-auto"
+              onClick={() => setPresentationMode(true)}
+              title="Start cinematic presentation"
+            >
+              <span className="text-[10px]">&#127916; Present</span>
             </button>
           </div>
 
@@ -251,7 +325,7 @@ export function TimelineControls() {
               Step {currentStep + 1} of {totalSteps}
             </div>
             <div className="w95-statusbar-cell">
-              {isAnimating ? "Animating..." : detailsOpen ? "Press D to close" : "Press D for details"}
+              {isPlaying ? `Playing ${playbackSpeed}x` : isAnimating ? "Animating..." : "Space=Play D=Details"}
             </div>
           </div>
         </div>

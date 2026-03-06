@@ -34,11 +34,13 @@ export function UnitIcon({
     ? `${base}/icons/units/${side}-${unitType}-${echelon}.svg`
     : `${base}/icons/units/${side}-${unitType}.svg`;
 
+  const iconWidth = Math.round(36 * scale);
+  const barWidth = Math.round(34 * scale);
+
   return (
     <div
       className="flex flex-col items-center"
       style={{
-        transform: `scale(${scale})`,
         opacity,
         filter: "drop-shadow(1px 1px 0 rgba(0,0,0,0.4))",
       }}
@@ -48,13 +50,13 @@ export function UnitIcon({
         src={iconFile}
         alt={`${side} ${unitType}`}
         className="pointer-events-none"
-        style={{ width: 36, height: "auto" }}
+        style={{ width: iconWidth, height: "auto" }}
         draggable={false}
       />
       {/* Strength bar */}
       <div
         className="relative mt-0.5"
-        style={{ width: 34, height: 3 }}
+        style={{ width: barWidth, height: 3 }}
       >
         <div
           className="absolute inset-0"

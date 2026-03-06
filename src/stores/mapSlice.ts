@@ -1,11 +1,20 @@
 import type { StateCreator } from "zustand";
 import type { ViewportState, ZoomTier } from "@/types";
 
+export interface ViewportBounds {
+  north: number;
+  south: number;
+  east: number;
+  west: number;
+}
+
 export interface MapSlice {
   viewport: ViewportState;
   zoomTier: ZoomTier;
+  viewportBounds: ViewportBounds | null;
   setViewport: (viewport: Partial<ViewportState>) => void;
   setZoomTier: (tier: ZoomTier) => void;
+  setViewportBounds: (bounds: ViewportBounds) => void;
 }
 
 function getZoomTier(zoom: number): ZoomTier {
@@ -23,6 +32,7 @@ export const createMapSlice: StateCreator<MapSlice> = (set) => ({
     pitch: 0,
   },
   zoomTier: "strategic",
+  viewportBounds: null,
   setViewport: (partial) =>
     set((state) => {
       const newViewport = { ...state.viewport, ...partial };
@@ -32,4 +42,5 @@ export const createMapSlice: StateCreator<MapSlice> = (set) => ({
       };
     }),
   setZoomTier: (tier) => set({ zoomTier: tier }),
+  setViewportBounds: (bounds) => set({ viewportBounds: bounds }),
 });

@@ -6,6 +6,8 @@ import { useStore } from "@/stores";
 import type {
   FillLayerSpecification,
   LineLayerSpecification,
+  CircleLayerSpecification,
+  SymbolLayerSpecification,
 } from "maplibre-gl";
 
 const forestFill: FillLayerSpecification = {
@@ -26,7 +28,38 @@ const hillFill: FillLayerSpecification = {
   filter: ["==", ["get", "type"], "hill"],
   paint: {
     "fill-color": "#a07d3a",
-    "fill-opacity": 0.1,
+    "fill-opacity": 0.18,
+  },
+};
+
+const hillOutline: LineLayerSpecification = {
+  id: "terrain-hill-outline",
+  type: "line",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "hill"],
+  paint: {
+    "line-color": "#8B7355",
+    "line-width": 1.5,
+    "line-opacity": 0.4,
+  },
+};
+
+const hillLabel: SymbolLayerSpecification = {
+  id: "terrain-hill-label",
+  type: "symbol",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "hill"],
+  layout: {
+    "text-field": ["get", "name"],
+    "text-size": 11,
+    "text-font": ["Open Sans Regular"],
+    "text-offset": [0, 0],
+    "text-allow-overlap": false,
+  },
+  paint: {
+    "text-color": "#6B5B3A",
+    "text-halo-color": "#ffffff",
+    "text-halo-width": 1.5,
   },
 };
 
@@ -84,12 +117,61 @@ const roadLine: LineLayerSpecification = {
   },
 };
 
-const INTERACTIVE_LAYERS = ["terrain-river", "terrain-river-hit"];
+const townDot: CircleLayerSpecification = {
+  id: "terrain-town-dot",
+  type: "circle",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "town"],
+  paint: {
+    "circle-radius": 5,
+    "circle-color": "#404040",
+    "circle-stroke-color": "#ffffff",
+    "circle-stroke-width": 1.5,
+  },
+};
+
+const townLabel: SymbolLayerSpecification = {
+  id: "terrain-town-label",
+  type: "symbol",
+  source: "terrain",
+  filter: ["==", ["get", "type"], "town"],
+  layout: {
+    "text-field": ["get", "name"],
+    "text-size": 11,
+    "text-font": ["Open Sans Regular"],
+    "text-offset": [0, 1.2],
+    "text-anchor": "top",
+    "text-allow-overlap": false,
+  },
+  paint: {
+    "text-color": "#1a1a1a",
+    "text-halo-color": "#ffffff",
+    "text-halo-width": 1.5,
+  },
+};
+
+const INTERACTIVE_LAYERS = [
+  "terrain-river",
+  "terrain-river-hit",
+  "terrain-town-dot",
+  "terrain-town-label",
+  "terrain-hill-fill",
+  "terrain-hill-outline",
+  "terrain-hill-label",
+];
+
+const POPUP_COLORS: Record<string, string> = {
+  river: "#3b82f6",
+  town: "#404040",
+  hill: "#a07d3a",
+};
 
 interface PopupInfo {
   lng: number;
   lat: number;
   name: string;
+  description?: string;
+  featureType: string;
 }
 
 export function TerrainLayer() {
@@ -103,10 +185,11 @@ export function TerrainLayer() {
       if (!mapRef) return;
       const map = mapRef.getMap();
 
-      if (!map.getLayer("terrain-river")) return;
+      const activeLayers = INTERACTIVE_LAYERS.filter((l) => map.getLayer(l));
+      if (activeLayers.length === 0) return;
 
       const features = map.queryRenderedFeatures(e.point, {
-        layers: INTERACTIVE_LAYERS.filter((l) => map.getLayer(l)),
+        layers: activeLayers,
       });
 
       if (features.length > 0) {
@@ -128,10 +211,14 @@ export function TerrainLayer() {
           hoveredIdRef.current = fid;
         }
 
+        const featureType = feature.properties?.type ?? "river";
+
         setPopupInfo({
           lng: e.lngLat.lng,
           lat: e.lngLat.lat,
-          name: feature.properties?.name ?? "River",
+          name: feature.properties?.name ?? "",
+          description: feature.properties?.description ?? undefined,
+          featureType,
         });
       } else {
         if (hoveredIdRef.current !== null) {
@@ -193,10 +280,14 @@ export function TerrainLayer() {
       <Source id="terrain" type="geojson" data={terrainWithIds}>
         <Layer {...forestFill} />
         <Layer {...hillFill} />
+        <Layer {...hillOutline} />
         <Layer {...riverHitArea} />
         <Layer {...riverGlow} />
         <Layer {...riverLine} />
         <Layer {...roadLine} />
+        <Layer {...townDot} />
+        <Layer {...townLabel} />
+        <Layer {...hillLabel} />
       </Source>
       {popupInfo && (
         <Popup
@@ -212,12 +303,20 @@ export function TerrainLayer() {
             <div className="flex items-center gap-1.5">
               <span
                 className="inline-block h-2 w-2"
-                style={{ backgroundColor: "#3b82f6" }}
+                style={{
+                  backgroundColor:
+                    POPUP_COLORS[popupInfo.featureType] ?? "#3b82f6",
+                }}
               />
               <span className="font-bold text-[11px] text-black">
                 {popupInfo.name}
               </span>
             </div>
+            {popupInfo.description && (
+              <p className="text-[10px] text-[#404040] mt-1 max-w-[200px]">
+                {popupInfo.description}
+              </p>
+            )}
           </div>
         </Popup>
       )}

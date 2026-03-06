@@ -4,13 +4,20 @@ import { useMemo, useState, useCallback, useEffect, useRef } from "react";
 import { Source, Layer, Popup, useMap } from "react-map-gl/maplibre";
 import { useStore } from "@/stores";
 import { useCurrentSnapshot } from "@/hooks/useCurrentSnapshot";
-import type { LineLayerSpecification, CircleLayerSpecification } from "maplibre-gl";
+import type {
+  LineLayerSpecification,
+  CircleLayerSpecification,
+  SymbolLayerSpecification,
+} from "maplibre-gl";
 
 const EVENT_TYPE_LABELS: Record<string, { label: string; color: string }> = {
   assault: { label: "Assault", color: "#ef4444" },
   artillery_fire: { label: "Artillery Fire", color: "#f59e0b" },
   air_strike: { label: "Air Strike", color: "#8b5cf6" },
   retreat: { label: "Retreat", color: "#6b7280" },
+  surrender: { label: "Surrender", color: "#9ca3af" },
+  reinforcement: { label: "Reinforcement", color: "#22c55e" },
+  defense: { label: "Defense", color: "#3b82f6" },
 };
 
 const combatLineStyle: LineLayerSpecification = {
@@ -26,23 +33,52 @@ const combatLineStyle: LineLayerSpecification = {
       "#8b5cf6",
       ["==", ["get", "type"], "retreat"],
       "#6b7280",
+      ["==", ["get", "type"], "surrender"],
+      "#9ca3af",
+      ["==", ["get", "type"], "reinforcement"],
+      "#22c55e",
+      ["==", ["get", "type"], "defense"],
+      "#3b82f6",
       "#ef4444",
     ],
     "line-width": [
       "case",
+      ["==", ["get", "type"], "assault"],
+      3,
       ["==", ["get", "type"], "artillery_fire"],
       3,
       ["==", ["get", "type"], "air_strike"],
       2.5,
+      ["==", ["get", "type"], "retreat"],
+      2,
+      ["==", ["get", "type"], "surrender"],
+      1.5,
+      ["==", ["get", "type"], "reinforcement"],
+      2.5,
+      ["==", ["get", "type"], "defense"],
+      2,
       2,
     ],
-    "line-opacity": 0.7,
+    "line-opacity": [
+      "case",
+      ["==", ["get", "type"], "retreat"],
+      0.5,
+      ["==", ["get", "type"], "surrender"],
+      0.6,
+      0.7,
+    ],
     "line-dasharray": [
       "case",
       ["==", ["get", "type"], "artillery_fire"],
       ["literal", [2, 4]],
+      ["==", ["get", "type"], "air_strike"],
+      ["literal", [1, 3]],
       ["==", ["get", "type"], "retreat"],
-      ["literal", [4, 4]],
+      ["literal", [6, 4]],
+      ["==", ["get", "type"], "surrender"],
+      ["literal", [2, 2]],
+      ["==", ["get", "type"], "defense"],
+      ["literal", [4, 2]],
       ["literal", [1, 0]],
     ],
   },
@@ -62,6 +98,12 @@ const combatLineGlow: LineLayerSpecification = {
       "#a78bfa",
       ["==", ["get", "type"], "retreat"],
       "#9ca3af",
+      ["==", ["get", "type"], "surrender"],
+      "#d1d5db",
+      ["==", ["get", "type"], "reinforcement"],
+      "#4ade80",
+      ["==", ["get", "type"], "defense"],
+      "#60a5fa",
       "#f87171",
     ],
     "line-width": 8,
@@ -86,31 +128,132 @@ const combatLineHitArea: LineLayerSpecification = {
   },
 };
 
+// Arrowhead symbol layer for assault lines
+const combatArrowStyle: SymbolLayerSpecification = {
+  id: "combat-events-arrows",
+  type: "symbol",
+  source: "combat-events",
+  filter: ["==", ["get", "type"], "assault"],
+  layout: {
+    "symbol-placement": "line",
+    "symbol-spacing": 80,
+    "text-field": "\u25B6",
+    "text-size": 12,
+    "text-rotation-alignment": "map",
+    "text-allow-overlap": true,
+    "text-ignore-placement": true,
+    "text-keep-upright": false,
+  },
+  paint: {
+    "text-color": "#ef4444",
+    "text-opacity": 0.9,
+  },
+};
+
+// Target circle layer with type-specific styling
 const combatPointStyle: CircleLayerSpecification = {
   id: "combat-events-point",
   type: "circle",
   source: "combat-events-targets",
   paint: {
-    "circle-radius": 6,
+    "circle-radius": [
+      "case",
+      ["==", ["get", "type"], "assault"],
+      8,
+      ["==", ["get", "type"], "artillery_fire"],
+      7,
+      ["==", ["get", "type"], "air_strike"],
+      7,
+      ["==", ["get", "type"], "surrender"],
+      5,
+      ["==", ["get", "type"], "reinforcement"],
+      6,
+      ["==", ["get", "type"], "defense"],
+      6,
+      6,
+    ],
     "circle-color": [
       "case",
       ["==", ["get", "type"], "artillery_fire"],
       "#f59e0b",
       ["==", ["get", "type"], "air_strike"],
       "#8b5cf6",
+      ["==", ["get", "type"], "retreat"],
+      "#6b7280",
+      ["==", ["get", "type"], "surrender"],
+      "#ffffff",
+      ["==", ["get", "type"], "reinforcement"],
+      "#22c55e",
+      ["==", ["get", "type"], "defense"],
+      "#3b82f6",
       "#ef4444",
     ],
-    "circle-opacity": 0.5,
+    "circle-opacity": [
+      "case",
+      ["==", ["get", "type"], "assault"],
+      0.7,
+      ["==", ["get", "type"], "artillery_fire"],
+      0.6,
+      ["==", ["get", "type"], "air_strike"],
+      0.6,
+      0.5,
+    ],
     "circle-stroke-color": [
       "case",
       ["==", ["get", "type"], "artillery_fire"],
       "#f59e0b",
       ["==", ["get", "type"], "air_strike"],
       "#8b5cf6",
+      ["==", ["get", "type"], "retreat"],
+      "#6b7280",
+      ["==", ["get", "type"], "surrender"],
+      "#9ca3af",
+      ["==", ["get", "type"], "reinforcement"],
+      "#22c55e",
+      ["==", ["get", "type"], "defense"],
+      "#3b82f6",
       "#ef4444",
     ],
-    "circle-stroke-width": 2,
+    "circle-stroke-width": [
+      "case",
+      ["==", ["get", "type"], "defense"],
+      3,
+      ["==", ["get", "type"], "surrender"],
+      2,
+      2,
+    ],
     "circle-stroke-opacity": 0.8,
+  },
+};
+
+// Impact halo for artillery/air_strike targets
+const combatImpactHalo: CircleLayerSpecification = {
+  id: "combat-events-impact-halo",
+  type: "circle",
+  source: "combat-events-targets",
+  filter: ["in", ["get", "type"], ["literal", ["artillery_fire", "air_strike"]]],
+  paint: {
+    "circle-radius": [
+      "case",
+      ["==", ["get", "type"], "artillery_fire"],
+      16,
+      14,
+    ],
+    "circle-color": [
+      "case",
+      ["==", ["get", "type"], "artillery_fire"],
+      "#f59e0b",
+      "#8b5cf6",
+    ],
+    "circle-opacity": 0.15,
+    "circle-stroke-color": [
+      "case",
+      ["==", ["get", "type"], "artillery_fire"],
+      "#f59e0b",
+      "#8b5cf6",
+    ],
+    "circle-stroke-width": 1,
+    "circle-stroke-opacity": 0.2,
   },
 };
 
@@ -265,9 +408,11 @@ export function CombatEventLayer() {
         <Layer {...combatLineHitArea} />
         <Layer {...combatLineGlow} />
         <Layer {...combatLineStyle} />
+        <Layer {...combatArrowStyle} />
       </Source>
       {targetGeojson && (
         <Source id="combat-events-targets" type="geojson" data={targetGeojson}>
+          <Layer {...combatImpactHalo} />
           <Layer {...combatPointStyle} />
         </Source>
       )}

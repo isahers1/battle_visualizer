@@ -31,7 +31,8 @@
     "childIds": [
       "v-corps",
       "viii-corps",
-      "xviii-airborne-corps"
+      "xviii-airborne-corps",
+      "vii-corps"
     ],
     "commander": "Lt. Gen. Courtney Hodges",
     "equipment": [],
@@ -73,7 +74,8 @@
     "parentId": "first-army",
     "childIds": [
       "2nd-infantry",
-      "99th-infantry"
+      "99th-infantry",
+      "1st-infantry"
     ],
     "commander": "Maj. Gen. Leonard Gerow",
     "equipment": [],
@@ -95,7 +97,11 @@
     "childIds": [
       "106th-infantry",
       "28th-infantry",
-      "4th-infantry"
+      "4th-infantry",
+      "7th-armored",
+      "9th-armored",
+      "10th-armored",
+      "705th-td"
     ],
     "commander": "Maj. Gen. Troy Middleton",
     "equipment": [],
@@ -116,7 +122,9 @@
     "parentId": "first-army",
     "childIds": [
       "82nd-airborne",
-      "101st-airborne"
+      "101st-airborne",
+      "30th-infantry",
+      "17th-airborne"
     ],
     "commander": "Maj. Gen. Matthew Ridgway",
     "equipment": [],
@@ -138,7 +146,10 @@
     "childIds": [
       "4th-armored",
       "26th-infantry",
-      "80th-infantry"
+      "80th-infantry",
+      "6th-armored",
+      "11th-armored",
+      "87th-infantry"
     ],
     "commander": "Maj. Gen. John Millikin",
     "equipment": [],
@@ -333,7 +344,7 @@
     "echelon": "division",
     "parentId": "xviii-airborne-corps",
     "childIds": [],
-    "commander": "Brig. Gen. James Gavin",
+    "commander": "Maj. Gen. James Gavin",
     "equipment": [
       {
         "name": "M1 Garand",
@@ -362,7 +373,7 @@
     "echelon": "division",
     "parentId": "xviii-airborne-corps",
     "childIds": [],
-    "commander": "Brig. Gen. Anthony McAuliffe",
+    "commander": "Brig. Gen. Anthony McAuliffe (Acting)",
     "equipment": [
       {
         "name": "M1 Garand",
@@ -409,7 +420,7 @@
         "quantity": 77
       }
     ],
-    "history": "Rushed to St. Vith and organized a horseshoe-shaped defensive perimeter that held for 6 critical days.",
+    "history": "Rushed to St. Vith and organized a horseshoe-shaped defensive perimeter that held for 7 critical days (Dec 17-23).",
     "personnel": {
       "officers": 540,
       "ncos": 2680,
@@ -438,7 +449,7 @@
         "quantity": 77
       }
     ],
-    "history": "Elements fought at both St. Vith and Bastogne. Combat Command B fought alongside the 7th Armored at St. Vith.",
+    "history": "Elements fought at both St. Vith and Bastogne. Combat Command B fought alongside the 7th Armored at St. Vith, while Combat Command R defended approaches to Bastogne.",
     "personnel": {
       "officers": 535,
       "ncos": 2650,
@@ -557,7 +568,8 @@
     "childIds": [
       "6th-panzer-army",
       "5th-panzer-army",
-      "7th-army"
+      "7th-army",
+      "150th-panzer-brigade"
     ],
     "commander": "GFM Walter Model",
     "equipment": [],
@@ -578,7 +590,9 @@
     "parentId": "army-group-b",
     "childIds": [
       "i-ss-panzer-corps",
-      "lxvii-corps"
+      "lxvii-corps",
+      "ii-ss-panzer-corps",
+      "stosser-group"
     ],
     "commander": "SS-Oberstgruppenführer Sepp Dietrich",
     "equipment": [],
@@ -600,7 +614,9 @@
     "childIds": [
       "xlvii-panzer-corps",
       "lxvi-corps",
-      "lviii-panzer-corps"
+      "lviii-panzer-corps",
+      "fuhrer-begleit",
+      "fuhrer-grenadier"
     ],
     "commander": "Gen. Hasso von Manteuffel",
     "equipment": [],
@@ -620,7 +636,8 @@
     "echelon": "army",
     "parentId": "army-group-b",
     "childIds": [
-      "lxxx-corps"
+      "lxxx-corps",
+      "lxxxv-corps"
     ],
     "commander": "Gen. Erich Brandenberger",
     "equipment": [],
@@ -686,7 +703,8 @@
     "childIds": [
       "2nd-panzer",
       "panzer-lehr",
-      "26th-vgd"
+      "26th-vgd",
+      "15th-panzergrenadier"
     ],
     "commander": "Gen. Heinrich von Lüttwitz",
     "equipment": [],
@@ -707,7 +725,8 @@
     "parentId": "5th-panzer-army",
     "childIds": [
       "18th-vgd",
-      "62nd-vgd"
+      "62nd-vgd",
+      "3rd-panzergrenadier"
     ],
     "commander": "Gen. Walther Lucht",
     "equipment": [],
@@ -728,7 +747,8 @@
     "parentId": "5th-panzer-army",
     "childIds": [
       "116th-panzer",
-      "560th-vgd"
+      "560th-vgd",
+      "9th-panzer"
     ],
     "commander": "Gen. Walter Krüger",
     "equipment": [],
@@ -748,7 +768,7 @@
     "echelon": "corps",
     "parentId": "7th-army",
     "childIds": [
-      "352nd-vgd"
+      "276th-vgd"
     ],
     "commander": "Gen. Franz Beyer",
     "equipment": [],
@@ -1128,7 +1148,7 @@
     "side": "axis",
     "unitType": "infantry",
     "echelon": "division",
-    "parentId": "lxxx-corps",
+    "parentId": "lxxxv-corps",
     "childIds": [],
     "commander": "Oberst Erich Schmidt",
     "equipment": [
@@ -1143,6 +1163,1263 @@
       "officers": 400,
       "ncos": 2100,
       "enlisted": 7100
+    }
+  },
+  "ii-ss-panzer-corps": {
+    "id": "ii-ss-panzer-corps",
+    "name": "II SS Panzer Corps",
+    "shortName": "II SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "corps",
+    "parentId": "6th-panzer-army",
+    "childIds": [
+      "2nd-ss-panzer",
+      "9th-ss-panzer"
+    ],
+    "commander": "SS-Obergruppenführer Willi Bittrich",
+    "equipment": [],
+    "history": "Held in reserve initially, committed to the battle around Dec 21 to reinforce the stalled 6th Panzer Army offensive near Elsenborn Ridge.",
+    "personnel": {
+      "officers": 155,
+      "ncos": 285,
+      "enlisted": 490
+    }
+  },
+  "lxxxv-corps": {
+    "id": "lxxxv-corps",
+    "name": "LXXXV Corps",
+    "shortName": "LXXXV Corps",
+    "side": "axis",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "7th-army",
+    "childIds": [
+      "5th-para",
+      "352nd-vgd"
+    ],
+    "commander": "Gen. Baptist Kneiss",
+    "equipment": [],
+    "history": "Southern corps of the 7th Army, responsible for protecting the deepest southern flank of the offensive.",
+    "personnel": {
+      "officers": 110,
+      "ncos": 210,
+      "enlisted": 355
+    }
+  },
+  "2nd-ss-panzer": {
+    "id": "2nd-ss-panzer",
+    "name": "2nd SS Panzer Division Das Reich",
+    "shortName": "2nd SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "ii-ss-panzer-corps",
+    "childIds": [],
+    "commander": "SS-Brigadeführer Heinz Lammerding",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 58
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 28
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 20
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 120
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 4000
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 350
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 800
+      }
+    ],
+    "history": "Veteran SS panzer division notorious for the Oradour-sur-Glane massacre in France. Committed as reserve to exploit any breakthrough in the northern sector.",
+    "personnel": {
+      "officers": 890,
+      "ncos": 4100,
+      "enlisted": 14200
+    }
+  },
+  "9th-ss-panzer": {
+    "id": "9th-ss-panzer",
+    "name": "9th SS Panzer Division Hohenstaufen",
+    "shortName": "9th SS Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "ii-ss-panzer-corps",
+    "childIds": [],
+    "commander": "SS-Oberführer Sylvester Stadler",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 39
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 28
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 18
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 100
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 3800
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 320
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 600
+      }
+    ],
+    "history": "Fought at Arnhem in September 1944. Committed to the Ardennes as part of II SS Panzer Corps reserve, saw action near Manhay and Grandmenil.",
+    "personnel": {
+      "officers": 820,
+      "ncos": 3800,
+      "enlisted": 13500
+    }
+  },
+  "9th-panzer": {
+    "id": "9th-panzer",
+    "name": "9th Panzer Division",
+    "shortName": "9th Pz",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "lviii-panzer-corps",
+    "childIds": [],
+    "commander": "Generalmajor Harald von Elverfeldt",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 30
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 24
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 14
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 90
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 3500
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 280
+      }
+    ],
+    "history": "Committed as a reserve division to reinforce the drive toward the Meuse. Fought in the Bastogne corridor area.",
+    "personnel": {
+      "officers": 560,
+      "ncos": 2800,
+      "enlisted": 8900
+    }
+  },
+  "3rd-panzergrenadier": {
+    "id": "3rd-panzergrenadier",
+    "name": "3rd Panzergrenadier Division",
+    "shortName": "3rd PzGren",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxvi-corps",
+    "childIds": [],
+    "commander": "Generalmajor Walter Denkert",
+    "equipment": [
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 30
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 80
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 4500
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 350
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 400
+      },
+      {
+        "name": "Panzerfaust",
+        "category": "Anti-Tank",
+        "quantity": 800
+      }
+    ],
+    "history": "Committed to reinforce the Bastogne siege, attacking from the southeast. Fought in the corridor battles around Bastogne in late December.",
+    "personnel": {
+      "officers": 580,
+      "ncos": 3000,
+      "enlisted": 9800
+    }
+  },
+  "15th-panzergrenadier": {
+    "id": "15th-panzergrenadier",
+    "name": "15th Panzergrenadier Division",
+    "shortName": "15th PzGren",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "xlvii-panzer-corps",
+    "childIds": [],
+    "commander": "Oberst Hans-Joachim Deckert",
+    "equipment": [
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 25
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 70
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 4200
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 320
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 350
+      },
+      {
+        "name": "Panzerfaust",
+        "category": "Anti-Tank",
+        "quantity": 700
+      }
+    ],
+    "history": "Veteran division from the Italian campaign. Committed to reinforce operations around Bastogne in late December.",
+    "personnel": {
+      "officers": 550,
+      "ncos": 2900,
+      "enlisted": 9500
+    }
+  },
+  "276th-vgd": {
+    "id": "276th-vgd",
+    "name": "276th Volksgrenadier Division",
+    "shortName": "276th VGD",
+    "side": "axis",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "lxxx-corps",
+    "childIds": [],
+    "commander": "Generalmajor Kurt Möhring",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 5000
+      },
+      {
+        "name": "StG 44",
+        "category": "Assault Rifle",
+        "quantity": 400
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 280
+      },
+      {
+        "name": "Panzerfaust",
+        "category": "Anti-Tank",
+        "quantity": 600
+      }
+    ],
+    "history": "Attacked on the southern flank alongside the 352nd VGD, protecting the left wing of the offensive against the US 4th Infantry Division.",
+    "personnel": {
+      "officers": 390,
+      "ncos": 2050,
+      "enlisted": 6900
+    }
+  },
+  "5th-para": {
+    "id": "5th-para",
+    "name": "5th Parachute Division",
+    "shortName": "5th Para",
+    "side": "axis",
+    "unitType": "airborne",
+    "echelon": "division",
+    "parentId": "lxxxv-corps",
+    "childIds": [],
+    "commander": "Oberst Ludwig Heilmann",
+    "equipment": [
+      {
+        "name": "FG 42",
+        "category": "Automatic Rifle",
+        "quantity": 800
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 3500
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 250
+      },
+      {
+        "name": "Panzerfaust",
+        "category": "Anti-Tank",
+        "quantity": 500
+      }
+    ],
+    "history": "Fought on the southern flank, crossing the Sauer River to attack American positions. Tasked with blocking Patton's Third Army relief force approaching from the south.",
+    "personnel": {
+      "officers": 520,
+      "ncos": 2800,
+      "enlisted": 9680
+    }
+  },
+  "fuhrer-begleit": {
+    "id": "fuhrer-begleit",
+    "name": "Führer Begleit Brigade",
+    "shortName": "FB Bde",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "brigade",
+    "parentId": "5th-panzer-army",
+    "childIds": [],
+    "commander": "Oberst Otto Remer",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 16
+      },
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 17
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 12
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 40
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 2200
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 160
+      }
+    ],
+    "history": "Elite brigade commanded by Otto Remer, who helped suppress the July 20 plot. Committed at St. Vith on Dec 18, helped break the American defensive perimeter.",
+    "personnel": {
+      "officers": 280,
+      "ncos": 1400,
+      "enlisted": 4520
+    }
+  },
+  "fuhrer-grenadier": {
+    "id": "fuhrer-grenadier",
+    "name": "Führer Grenadier Brigade",
+    "shortName": "FG Bde",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "brigade",
+    "parentId": "5th-panzer-army",
+    "childIds": [],
+    "commander": "Oberst Hans-Joachim Kahler",
+    "equipment": [
+      {
+        "name": "Panzer IV",
+        "category": "Tank",
+        "quantity": 12
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 18
+      },
+      {
+        "name": "SdKfz 251",
+        "category": "Half-track",
+        "quantity": 35
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 2000
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 140
+      }
+    ],
+    "history": "Motorized brigade committed as reserve to reinforce the Bastogne sector. Fought in the corridor battles east of Bastogne.",
+    "personnel": {
+      "officers": 250,
+      "ncos": 1300,
+      "enlisted": 4200
+    }
+  },
+  "150th-panzer-brigade": {
+    "id": "150th-panzer-brigade",
+    "name": "150th Panzer Brigade",
+    "shortName": "150th Pz Bde",
+    "side": "axis",
+    "unitType": "armor",
+    "echelon": "brigade",
+    "parentId": "army-group-b",
+    "childIds": [],
+    "commander": "SS-Obersturmbannführer Otto Skorzeny",
+    "equipment": [
+      {
+        "name": "Panther",
+        "category": "Tank",
+        "quantity": 5
+      },
+      {
+        "name": "M4 Sherman (captured)",
+        "category": "Tank",
+        "quantity": 2
+      },
+      {
+        "name": "StuG III",
+        "category": "Assault Gun",
+        "quantity": 6
+      },
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 1500
+      },
+      {
+        "name": "Captured Allied Equipment",
+        "category": "Various",
+        "quantity": 50
+      }
+    ],
+    "history": "Commanded by Otto Skorzeny for Operation Greif. English-speaking commandos in captured Allied uniforms spread confusion behind lines. The conventional brigade element failed to capture the Meuse bridges. Withdrawn by end of December.",
+    "personnel": {
+      "officers": 120,
+      "ncos": 800,
+      "enlisted": 2280
+    }
+  },
+  "stosser-group": {
+    "id": "stosser-group",
+    "name": "Operation Stösser Paratroopers",
+    "shortName": "Stösser",
+    "side": "axis",
+    "unitType": "airborne",
+    "echelon": "battalion",
+    "parentId": "6th-panzer-army",
+    "childIds": [],
+    "commander": "Oberstleutnant Friedrich von der Heydte",
+    "equipment": [
+      {
+        "name": "Kar98k",
+        "category": "Rifle",
+        "quantity": 800
+      },
+      {
+        "name": "FG 42",
+        "category": "Automatic Rifle",
+        "quantity": 200
+      },
+      {
+        "name": "MG42",
+        "category": "Machine Gun",
+        "quantity": 40
+      }
+    ],
+    "history": "Approximately 1,300 paratroopers dropped on Dec 17 near Baraque Michel to seize the Eupen-Malmedy road junction. Badly scattered by high winds and inexperienced pilots, only about 300 assembled. Surrendered on Dec 22 after failing to accomplish their mission.",
+    "personnel": {
+      "officers": 35,
+      "ncos": 265,
+      "enlisted": 1000
+    }
+  },
+  "vii-corps": {
+    "id": "vii-corps",
+    "name": "VII Corps",
+    "shortName": "VII Corps",
+    "side": "allied",
+    "unitType": "headquarters",
+    "echelon": "corps",
+    "parentId": "first-army",
+    "childIds": [
+      "2nd-armored",
+      "3rd-armored",
+      "84th-infantry",
+      "75th-infantry",
+      "83rd-infantry"
+    ],
+    "commander": "Maj. Gen. J. Lawton Collins",
+    "equipment": [],
+    "history": "Known as 'Lightning Joe' Collins' corps. Deployed to the western shoulder to stop the German advance toward the Meuse.",
+    "personnel": {
+      "officers": 148,
+      "ncos": 275,
+      "enlisted": 450
+    }
+  },
+  "2nd-armored": {
+    "id": "2nd-armored",
+    "name": "2nd Armored Division",
+    "shortName": "2nd Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "vii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Ernest Harmon",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      },
+      {
+        "name": "M7 Priest",
+        "category": "Self-Propelled Gun",
+        "quantity": 54
+      },
+      {
+        "name": "M3 Half-track",
+        "category": "APC",
+        "quantity": 240
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 3000
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2500
+      },
+      {
+        "name": "M3 Grease Gun",
+        "category": "Submachine Gun",
+        "quantity": 450
+      }
+    ],
+    "history": "Destroyed the 2nd Panzer Division at Celles on Christmas Day, stopping the deepest German penetration just 4 miles from the Meuse River.",
+    "personnel": {
+      "officers": 555,
+      "ncos": 2750,
+      "enlisted": 7595
+    }
+  },
+  "3rd-armored": {
+    "id": "3rd-armored",
+    "name": "3rd Armored Division",
+    "shortName": "3rd Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "vii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Maurice Rose",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 232
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      },
+      {
+        "name": "M7 Priest",
+        "category": "Self-Propelled Gun",
+        "quantity": 54
+      },
+      {
+        "name": "M3 Half-track",
+        "category": "APC",
+        "quantity": 280
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 3000
+      }
+    ],
+    "history": "Fought in the northern shoulder area, engaging German forces near Hotton and helping seal the western end of the Bulge.",
+    "personnel": {
+      "officers": 565,
+      "ncos": 2800,
+      "enlisted": 7700
+    }
+  },
+  "6th-armored": {
+    "id": "6th-armored",
+    "name": "6th Armored Division",
+    "shortName": "6th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Robert Grow",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      },
+      {
+        "name": "M7 Priest",
+        "category": "Self-Propelled Gun",
+        "quantity": 54
+      },
+      {
+        "name": "M3 Half-track",
+        "category": "APC",
+        "quantity": 240
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 3000
+      }
+    ],
+    "history": "Committed south of Bastogne in late December, fought to expand the corridor to the besieged town.",
+    "personnel": {
+      "officers": 540,
+      "ncos": 2680,
+      "enlisted": 7480
+    }
+  },
+  "10th-armored": {
+    "id": "10th-armored",
+    "name": "10th Armored Division",
+    "shortName": "10th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. William Morris",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      },
+      {
+        "name": "M7 Priest",
+        "category": "Self-Propelled Gun",
+        "quantity": 54
+      },
+      {
+        "name": "M3 Half-track",
+        "category": "APC",
+        "quantity": 240
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 3000
+      }
+    ],
+    "history": "CCB under Col. William Roberts was among the first reinforcements to reach Bastogne on Dec 18. Teams Cherry, Desobry, and O'Hara fought delaying actions on eastern approaches.",
+    "personnel": {
+      "officers": 545,
+      "ncos": 2700,
+      "enlisted": 7560
+    }
+  },
+  "11th-armored": {
+    "id": "11th-armored",
+    "name": "11th Armored Division",
+    "shortName": "11th Arm",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Charles Kilburn",
+    "equipment": [
+      {
+        "name": "M4 Sherman",
+        "category": "Tank",
+        "quantity": 186
+      },
+      {
+        "name": "M5 Stuart",
+        "category": "Light Tank",
+        "quantity": 77
+      },
+      {
+        "name": "M7 Priest",
+        "category": "Self-Propelled Gun",
+        "quantity": 54
+      },
+      {
+        "name": "M3 Half-track",
+        "category": "APC",
+        "quantity": 240
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 3000
+      }
+    ],
+    "history": "Green division arriving Dec 29, committed to fighting west of Bastogne in early January. Took heavy casualties learning combat the hard way.",
+    "personnel": {
+      "officers": 535,
+      "ncos": 2650,
+      "enlisted": 7450
+    }
+  },
+  "1st-infantry": {
+    "id": "1st-infantry",
+    "name": "1st Infantry Division",
+    "shortName": "1st Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "v-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Clift Andrus",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "Thompson SMG",
+        "category": "Submachine Gun",
+        "quantity": 312
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "M114 Howitzer",
+        "category": "Howitzer",
+        "quantity": 12
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "Committed to Elsenborn Ridge on Dec 17, reinforcing the 2nd and 99th Divisions. Helped form the unbreakable northern shoulder of the Bulge.",
+    "personnel": {
+      "officers": 770,
+      "ncos": 3200,
+      "enlisted": 10030
+    }
+  },
+  "30th-infantry": {
+    "id": "30th-infantry",
+    "name": "30th Infantry Division",
+    "shortName": "30th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "xviii-airborne-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Leland Hobbs",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "Thompson SMG",
+        "category": "Submachine Gun",
+        "quantity": 312
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "M114 Howitzer",
+        "category": "Howitzer",
+        "quantity": 12
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "Blocked Kampfgruppe Peiper at Stoumont and Stavelot, trapping his force in the La Gleize pocket. The division's determined defense was crucial in halting the 6th Panzer Army's advance.",
+    "personnel": {
+      "officers": 755,
+      "ncos": 3150,
+      "enlisted": 10095
+    }
+  },
+  "75th-infantry": {
+    "id": "75th-infantry",
+    "name": "75th Infantry Division",
+    "shortName": "75th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "vii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Fay Prickett",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "A green division committed in late December to help contain the western face of the Bulge near Hotton and Grandmenil.",
+    "personnel": {
+      "officers": 730,
+      "ncos": 3050,
+      "enlisted": 9920
+    }
+  },
+  "83rd-infantry": {
+    "id": "83rd-infantry",
+    "name": "83rd Infantry Division",
+    "shortName": "83rd Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "vii-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. Robert Macon",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "Committed to the western shoulder in late December, fought in the counteroffensive pushing east through January.",
+    "personnel": {
+      "officers": 735,
+      "ncos": 3060,
+      "enlisted": 9950
+    }
+  },
+  "84th-infantry": {
+    "id": "84th-infantry",
+    "name": "84th Infantry Division",
+    "shortName": "84th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "vii-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Alexander Bolling",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "Fought at Marche-en-Famenne, helping stop the 116th Panzer Division and 2nd Panzer Division from reaching the Meuse.",
+    "personnel": {
+      "officers": 740,
+      "ncos": 3080,
+      "enlisted": 10000
+    }
+  },
+  "87th-infantry": {
+    "id": "87th-infantry",
+    "name": "87th Infantry Division",
+    "shortName": "87th Inf",
+    "side": "allied",
+    "unitType": "infantry",
+    "echelon": "division",
+    "parentId": "iii-corps",
+    "childIds": [],
+    "commander": "Brig. Gen. Frank Culin",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6518
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 2012
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 543
+      },
+      {
+        "name": "M1919A4 Browning",
+        "category": "Machine Gun",
+        "quantity": 157
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 90
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 90
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "57mm M1 AT Gun",
+        "category": "Anti-Tank Gun",
+        "quantity": 57
+      }
+    ],
+    "history": "Part of Patton's Third Army, committed to fighting southwest of Bastogne in late December.",
+    "personnel": {
+      "officers": 725,
+      "ncos": 3040,
+      "enlisted": 9935
+    }
+  },
+  "17th-airborne": {
+    "id": "17th-airborne",
+    "name": "17th Airborne Division",
+    "shortName": "17th Abn",
+    "side": "allied",
+    "unitType": "airborne",
+    "echelon": "division",
+    "parentId": "xviii-airborne-corps",
+    "childIds": [],
+    "commander": "Maj. Gen. William Miley",
+    "equipment": [
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 6000
+      },
+      {
+        "name": "M1 Carbine",
+        "category": "Carbine",
+        "quantity": 1500
+      },
+      {
+        "name": "BAR",
+        "category": "Automatic Rifle",
+        "quantity": 400
+      },
+      {
+        "name": "M2 Mortar",
+        "category": "Mortar",
+        "quantity": 54
+      },
+      {
+        "name": "M101 Howitzer",
+        "category": "Howitzer",
+        "quantity": 36
+      },
+      {
+        "name": "M9 Bazooka",
+        "category": "Anti-Tank",
+        "quantity": 557
+      }
+    ],
+    "history": "Arrived from England on Christmas Day. Committed to action west of Bastogne in early January, the division's first combat.",
+    "personnel": {
+      "officers": 520,
+      "ncos": 2400,
+      "enlisted": 5580
+    }
+  },
+  "705th-td": {
+    "id": "705th-td",
+    "name": "705th Tank Destroyer Battalion",
+    "shortName": "705th TD",
+    "side": "allied",
+    "unitType": "armor",
+    "echelon": "battalion",
+    "parentId": "viii-corps",
+    "childIds": [],
+    "commander": "Lt. Col. Clifford Templeton",
+    "equipment": [
+      {
+        "name": "M18 Hellcat",
+        "category": "Tank Destroyer",
+        "quantity": 36
+      },
+      {
+        "name": "M1 Garand",
+        "category": "Rifle",
+        "quantity": 200
+      },
+      {
+        "name": "M2 HB",
+        "category": "Heavy Machine Gun",
+        "quantity": 12
+      }
+    ],
+    "history": "Attached to 101st Airborne at Bastogne, provided critical anti-tank defense with M18 Hellcats during the siege.",
+    "personnel": {
+      "officers": 35,
+      "ncos": 180,
+      "enlisted": 585
     }
   }
 }

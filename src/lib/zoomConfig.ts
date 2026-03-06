@@ -4,18 +4,24 @@ export const ZOOM_TIERS: ZoomTierConfig[] = [
   {
     tier: "strategic",
     minZoom: 0,
+    maxZoom: 8,
+    echelons: ["army_group", "army"],
+  },
+  {
+    tier: "operational",
+    minZoom: 8,
     maxZoom: 9.5,
     echelons: ["army_group", "army", "corps"],
   },
   {
-    tier: "operational",
+    tier: "tactical",
     minZoom: 9.5,
-    maxZoom: 12,
+    maxZoom: 11,
     echelons: ["army_group", "army", "corps", "division", "brigade"],
   },
   {
-    tier: "tactical",
-    minZoom: 12,
+    tier: "detailed",
+    minZoom: 11,
     maxZoom: 20,
     echelons: [
       "army_group",
@@ -32,11 +38,11 @@ export const ZOOM_TIERS: ZoomTierConfig[] = [
 export const ECHELON_MIN_ZOOM: Record<Echelon, number> = {
   army_group: 0,
   army: 0,
-  corps: 0,
+  corps: 8,
   division: 9.5,
   brigade: 9.5,
-  regiment: 12,
-  battalion: 12,
+  regiment: 11,
+  battalion: 11,
 };
 
 export const MAP_CONSTRAINTS = {

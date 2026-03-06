@@ -13,12 +13,12 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Schnee Eifel Ridge", "type": "hill" },
+      "properties": { "name": "Schnee Eifel Ridge", "type": "hill", "description": "Fortified ridge where two regiments of the 106th Division were surrounded" },
       "geometry": { "type": "Polygon", "coordinates": [[[6.25, 50.18], [6.35, 50.18], [6.38, 50.28], [6.30, 50.30], [6.22, 50.28], [6.25, 50.18]]] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Elsenborn Ridge", "type": "hill" },
+      "properties": { "name": "Elsenborn Ridge", "type": "hill", "description": "The unbreakable northern shoulder — V Corps held here throughout the battle" },
       "geometry": { "type": "Polygon", "coordinates": [[[6.18, 50.40], [6.30, 50.38], [6.32, 50.46], [6.20, 50.48], [6.18, 50.40]]] }
     },
     {
@@ -43,57 +43,57 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Bastogne", "type": "town" },
+      "properties": { "name": "Bastogne", "type": "town", "description": "Critical crossroads — 7 major roads converge here" },
       "geometry": { "type": "Point", "coordinates": [5.72, 49.99] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "St. Vith", "type": "town" },
+      "properties": { "name": "St. Vith", "type": "town", "description": "Key road junction controlling access to the Meuse" },
       "geometry": { "type": "Point", "coordinates": [6.12, 50.28] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Malmedy", "type": "town" },
+      "properties": { "name": "Malmedy", "type": "town", "description": "Site of the infamous massacre of 84 American POWs" },
       "geometry": { "type": "Point", "coordinates": [6.03, 50.42] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Houffalize", "type": "town" },
+      "properties": { "name": "Houffalize", "type": "town", "description": "Junction town where the American pincers met on Jan 16" },
       "geometry": { "type": "Point", "coordinates": [5.78, 50.13] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Clervaux", "type": "town" },
-      "geometry": { "type": "Point", "coordinates": [6.06, 49.97] }
+      "properties": { "name": "Clervaux", "type": "town", "description": "Site of the heroic stand at Clervaux Castle" },
+      "geometry": { "type": "Point", "coordinates": [6.03, 49.89] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Wiltz", "type": "town" },
+      "properties": { "name": "Wiltz", "type": "town", "description": "28th Division HQ, fell on Dec 19" },
       "geometry": { "type": "Point", "coordinates": [5.93, 49.97] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Echternach", "type": "town" },
+      "properties": { "name": "Echternach", "type": "town", "description": "Southern shoulder held by the 4th Infantry Division" },
       "geometry": { "type": "Point", "coordinates": [6.42, 49.81] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Stavelot", "type": "town" },
+      "properties": { "name": "Stavelot", "type": "town", "description": "Kampfgruppe Peiper's critical fuel depot target" },
       "geometry": { "type": "Point", "coordinates": [5.93, 50.39] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "La Gleize", "type": "town" },
-      "geometry": { "type": "Point", "coordinates": [5.85, 50.38] }
+      "properties": { "name": "La Gleize", "type": "town", "description": "Where Peiper's spearhead was finally trapped" },
+      "geometry": { "type": "Point", "coordinates": [5.84, 50.41] }
     },
     {
       "type": "Feature",
       "properties": { "name": "Stoumont", "type": "town" },
-      "geometry": { "type": "Point", "coordinates": [5.82, 50.39] }
+      "geometry": { "type": "Point", "coordinates": [5.81, 50.41] }
     },
     {
       "type": "Feature",
-      "properties": { "name": "Celles", "type": "town" },
+      "properties": { "name": "Celles", "type": "town", "description": "High-water mark of the German advance" },
       "geometry": { "type": "Point", "coordinates": [5.09, 50.23] }
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "Losheim Gap", "type": "field" },
+      "properties": { "name": "Losheim Gap", "type": "field", "description": "Thinly defended gap between V and VIII Corps — main German penetration route" },
       "geometry": { "type": "Polygon", "coordinates": [[[6.28, 50.28], [6.35, 50.28], [6.38, 50.34], [6.32, 50.35], [6.28, 50.28]]] }
     },
     {
@@ -116,13 +116,98 @@
       "properties": { "name": "Main Road Network", "type": "road" },
       "geometry": { "type": "MultiLineString", "coordinates": [
         [[5.72, 49.99], [5.78, 50.13], [5.85, 50.22], [5.93, 50.28]],
-        [[5.72, 49.99], [5.90, 49.98], [6.06, 49.97], [6.12, 50.05]],
+        [[5.72, 49.99], [5.90, 49.98], [6.03, 49.89], [6.12, 50.05]],
         [[5.72, 49.99], [5.65, 50.02], [5.55, 50.05]],
         [[5.72, 49.99], [5.75, 49.90], [5.80, 49.82]],
         [[6.12, 50.28], [6.03, 50.28], [5.93, 50.28]],
         [[6.12, 50.28], [6.12, 50.18], [6.12, 50.05]],
         [[6.12, 50.28], [6.22, 50.30], [6.30, 50.32]]
       ]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ambleve River", "type": "river", "description": "Critical waterway along Peiper's advance route" },
+      "geometry": { "type": "LineString", "coordinates": [[6.17, 50.34], [6.08, 50.36], [5.93, 50.39], [5.86, 50.40], [5.78, 50.38]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ourthe River", "type": "river", "description": "Natural defense line blocking German advance to the Meuse" },
+      "geometry": { "type": "LineString", "coordinates": [[5.95, 50.12], [5.87, 50.17], [5.78, 50.22], [5.68, 50.27], [5.58, 50.32], [5.53, 50.38]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Clerf River", "type": "river", "description": "28th Infantry Division fought delaying actions along this river" },
+      "geometry": { "type": "LineString", "coordinates": [[6.12, 49.96], [6.03, 49.89], [5.97, 49.84]] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Spa", "type": "town", "description": "First Army headquarters, evacuated Dec 19 as Peiper approached" },
+      "geometry": { "type": "Point", "coordinates": [5.86, 50.49] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Dinant", "type": "town", "description": "Key Meuse River crossing point, ultimate German objective" },
+      "geometry": { "type": "Point", "coordinates": [4.91, 50.26] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Trois-Ponts", "type": "town", "description": "Engineers blew bridges here, forcing Peiper to divert south" },
+      "geometry": { "type": "Point", "coordinates": [5.87, 50.37] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rocherath-Krinkelt", "type": "town", "description": "Fierce fighting as 2nd and 99th Divisions held against 12th SS Panzer" },
+      "geometry": { "type": "Point", "coordinates": [6.29, 50.43] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lanzerath", "type": "town", "description": "18-man Intelligence & Reconnaissance Platoon delayed entire division" },
+      "geometry": { "type": "Point", "coordinates": [6.31, 50.35] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Vielsalm", "type": "town", "description": "Assembly point for 7th Armored Division's withdrawal from St. Vith" },
+      "geometry": { "type": "Point", "coordinates": [5.92, 50.28] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Noville", "type": "town", "description": "Team Desobry of 10th Armored fought desperate delaying action" },
+      "geometry": { "type": "Point", "coordinates": [5.76, 50.05] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Foy", "type": "town", "description": "Village north of Bastogne, scene of heavy fighting" },
+      "geometry": { "type": "Point", "coordinates": [5.73, 50.01] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Wardin", "type": "town", "description": "Eastern approach to Bastogne" },
+      "geometry": { "type": "Point", "coordinates": [5.78, 49.98] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Marvie", "type": "town", "description": "Southern approach to Bastogne, scene of German penetration attempts" },
+      "geometry": { "type": "Point", "coordinates": [5.74, 49.97] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Longvilly", "type": "town", "description": "Eastern outpost of Bastogne defense, overrun Dec 19" },
+      "geometry": { "type": "Point", "coordinates": [5.82, 49.99] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Dasburg", "type": "town", "description": "German crossing point on the Our River" },
+      "geometry": { "type": "Point", "coordinates": [6.13, 50.00] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Monschau", "type": "town", "description": "Northernmost point of the battle, held firmly by US forces" },
+      "geometry": { "type": "Point", "coordinates": [6.24, 50.55] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Cheneux", "type": "town", "description": "Village near La Gleize where Peiper's force was trapped" },
+      "geometry": { "type": "Point", "coordinates": [5.82, 50.39] }
     }
   ]
 }

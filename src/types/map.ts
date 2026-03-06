@@ -6,7 +6,7 @@ export interface ViewportState {
   pitch: number;
 }
 
-export type ZoomTier = "strategic" | "operational" | "tactical";
+export type ZoomTier = "strategic" | "operational" | "tactical" | "detailed";
 
 export interface ZoomTierConfig {
   tier: ZoomTier;

@@ -28,8 +28,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.87,
-          50.37
+          5.86,
+          50.49
         ],
         "strength": 100,
         "status": "defending",
@@ -549,6 +549,546 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.75,
+          50.36
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.8,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.8,
+          50.38
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.75,
+          50.22
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.48,
+          49.88
+        ],
+        "strength": 100,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.7,
+          50.2
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.6,
+          50.3
+        ],
+        "strength": 100,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.5,
+          49.88
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.45,
+          49.9
+        ],
+        "strength": 100,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.6,
+          50.45
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.22,
+          50.45
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xviii-airborne-corps": {
+        "unitId": "xviii-airborne-corps",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "82nd-airborne": {
+        "unitId": "82nd-airborne",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "101st-airborne": {
+        "unitId": "101st-airborne",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "iii-corps": {
+        "unitId": "iii-corps",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "4th-armored": {
+        "unitId": "4th-armored",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "26th-infantry": {
+        "unitId": "26th-infantry",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "80th-infantry": {
+        "unitId": "80th-infantry",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.3,
+          49.55
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.35,
+          49.55
+        ],
+        "strength": 100,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -636,8 +1176,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.87,
-          50.37
+          5.86,
+          50.49
         ],
         "strength": 98,
         "status": "defending",
@@ -1157,6 +1697,546 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.75,
+          50.36
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.8,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.8,
+          50.38
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.75,
+          50.22
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.43,
+          49.87
+        ],
+        "strength": 98,
+        "status": "engaged",
+        "casualties": {
+          "killed": 20,
+          "wounded": 40,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.7,
+          50.2
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.5,
+          50.3
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 5,
+          "wounded": 8,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.46,
+          49.88
+        ],
+        "strength": 99,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.39,
+          49.89
+        ],
+        "strength": 98,
+        "status": "engaged",
+        "casualties": {
+          "killed": 30,
+          "wounded": 60,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.35,
+          50.48
+        ],
+        "strength": 25,
+        "status": "advancing",
+        "casualties": {
+          "killed": 263,
+          "wounded": 600,
+          "captured": 113,
+          "missing": 75
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.2,
+          50.43
+        ],
+        "strength": 98,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xviii-airborne-corps": {
+        "unitId": "xviii-airborne-corps",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "82nd-airborne": {
+        "unitId": "82nd-airborne",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "101st-airborne": {
+        "unitId": "101st-airborne",
+        "position": [
+          5.15,
+          49.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "iii-corps": {
+        "unitId": "iii-corps",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "4th-armored": {
+        "unitId": "4th-armored",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "26th-infantry": {
+        "unitId": "26th-infantry",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "80th-infantry": {
+        "unitId": "80th-infantry",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.3,
+          49.55
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.35,
+          49.55
+        ],
+        "strength": 100,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -1229,8 +2309,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.85,
-          50.37
+          5.86,
+          50.49
         ],
         "strength": 95,
         "status": "defending",
@@ -1750,6 +2830,546 @@
           "captured": 5,
           "missing": 5
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.75,
+          50.36
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.8,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.8,
+          50.38
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.75,
+          50.22
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.38,
+          49.86
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 40,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.7,
+          50.2
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.4,
+          50.3
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 10,
+          "wounded": 16,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.42,
+          49.88
+        ],
+        "strength": 98,
+        "status": "engaged",
+        "casualties": {
+          "killed": 2,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.33,
+          49.88
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 60,
+          "wounded": 120,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 22,
+        "status": "advancing",
+        "casualties": {
+          "killed": 273,
+          "wounded": 624,
+          "captured": 117,
+          "missing": 78
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.18,
+          50.42
+        ],
+        "strength": 95,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.93,
+          50.42
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xviii-airborne-corps": {
+        "unitId": "xviii-airborne-corps",
+        "position": [
+          5.6,
+          50.3
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "82nd-airborne": {
+        "unitId": "82nd-airborne",
+        "position": [
+          5.6,
+          50.32
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "101st-airborne": {
+        "unitId": "101st-airborne",
+        "position": [
+          5.4,
+          49.9
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "iii-corps": {
+        "unitId": "iii-corps",
+        "position": [
+          6.13,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "4th-armored": {
+        "unitId": "4th-armored",
+        "position": [
+          6.0,
+          49.62
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "26th-infantry": {
+        "unitId": "26th-infantry",
+        "position": [
+          6.0,
+          49.6
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "80th-infantry": {
+        "unitId": "80th-infantry",
+        "position": [
+          6.0,
+          49.58
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.28,
+          49.58
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.32,
+          49.58
+        ],
+        "strength": 98,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -1797,7 +3417,7 @@
     "index": 3,
     "dateTime": "1944-12-18T12:00:00",
     "title": "Defense of St. Vith",
-    "description": "7th Armored Division arrives at St. Vith and organizes a horseshoe-shaped defense. Two regiments of the 106th Infantry surrender on the Schnee Eifel — nearly 9,000 men captured. 82nd Airborne deploys near Werbomont. Kampfgruppe Peiper reaches Stoumont.",
+    "description": "7th Armored Division arrives at St. Vith and organizes a horseshoe-shaped defense. Two regiments of the 106th Infantry surrender on the Schnee Eifel \u2014 nearly 9,000 men captured. 82nd Airborne deploys near Werbomont. Kampfgruppe Peiper reaches Stoumont.",
     "weather": {
       "condition": "overcast",
       "temperature": -9,
@@ -1822,8 +3442,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.82,
-          50.37
+          5.86,
+          50.49
         ],
         "strength": 92,
         "status": "defending",
@@ -2343,6 +3963,546 @@
           "captured": 10,
           "missing": 10
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.75,
+          50.36
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.8,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.8,
+          50.38
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.75,
+          50.22
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.33,
+          49.85
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 60,
+          "wounded": 120,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.61,
+          50.26
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 20,
+          "wounded": 40,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.3,
+          50.3
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 15,
+          "wounded": 24,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.38,
+          49.88
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 3,
+          "wounded": 6,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.27,
+          49.87
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 90,
+          "wounded": 180,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 20,
+        "status": "advancing",
+        "casualties": {
+          "killed": 280,
+          "wounded": 640,
+          "captured": 120,
+          "missing": 80
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.55,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.16,
+          50.41
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.9,
+          50.4
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.78,
+          50.02
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xviii-airborne-corps": {
+        "unitId": "xviii-airborne-corps",
+        "position": [
+          5.65,
+          50.32
+        ],
+        "strength": 98,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "82nd-airborne": {
+        "unitId": "82nd-airborne",
+        "position": [
+          5.7,
+          50.35
+        ],
+        "strength": 95,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "101st-airborne": {
+        "unitId": "101st-airborne",
+        "position": [
+          5.55,
+          49.95
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "iii-corps": {
+        "unitId": "iii-corps",
+        "position": [
+          6.0,
+          49.65
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "4th-armored": {
+        "unitId": "4th-armored",
+        "position": [
+          5.9,
+          49.65
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "26th-infantry": {
+        "unitId": "26th-infantry",
+        "position": [
+          5.9,
+          49.62
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "80th-infantry": {
+        "unitId": "80th-infantry",
+        "position": [
+          5.9,
+          49.6
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.25,
+          49.6
+        ],
+        "strength": 100,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.3,
+          49.6
+        ],
+        "strength": 96,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -2415,8 +4575,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -3041,6 +5201,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.75,
+          50.36
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.8,
+          50.35
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.8,
+          50.38
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.63,
+          50.24
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 25,
+          "wounded": 50,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.28,
+          49.84
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 80,
+          "wounded": 160,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.53,
+          50.25
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 40,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.22,
+          50.28
+        ],
+        "strength": 80,
+        "status": "engaged",
+        "casualties": {
+          "killed": 32,
+          "wounded": 48,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.34,
+          49.88
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 4,
+          "wounded": 8,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.21,
+          49.86
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 120,
+          "wounded": 240,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 18,
+        "status": "advancing",
+        "casualties": {
+          "killed": 287,
+          "wounded": 656,
+          "captured": 123,
+          "missing": 82
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.5,
+          50.33
+        ],
+        "strength": 98,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 89,
+        "status": "engaged",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.88,
+          50.39
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.75,
+          50.0
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.65,
+          50.4
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.22,
+          49.62
+        ],
+        "strength": 98,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.28,
+          49.62
+        ],
+        "strength": 94,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -3075,7 +5670,7 @@
         "description": "Kampfgruppe Peiper clashes with 82nd Airborne at Stoumont"
       }
     ],
-    "significance": "The race for Bastogne — the 101st Airborne arrives just hours before the German ring closes.",
+    "significance": "The race for Bastogne \u2014 the 101st Airborne arrives just hours before the German ring closes.",
     "details": [
       "101st Airborne rushes 107 miles by truck from Mourmelon to Bastogne overnight",
       "Troops arrive without winter clothing, ammunition, or adequate supplies",
@@ -3113,8 +5708,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -3739,6 +6334,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.62,
+          50.32
+        ],
+        "strength": 98,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.65,
+          50.33
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 40,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.66,
+          50.36
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 35,
+          "wounded": 70,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.51,
+          50.23
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 50,
+          "wounded": 100,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.23,
+          49.83
+        ],
+        "strength": 90,
+        "status": "engaged",
+        "casualties": {
+          "killed": 100,
+          "wounded": 200,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.44,
+          50.24
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 60,
+          "wounded": 120,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.14,
+          50.26
+        ],
+        "strength": 75,
+        "status": "engaged",
+        "casualties": {
+          "killed": 40,
+          "wounded": 60,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.3,
+          49.88
+        ],
+        "strength": 95,
+        "status": "engaged",
+        "casualties": {
+          "killed": 5,
+          "wounded": 10,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.15,
+          49.85
+        ],
+        "strength": 90,
+        "status": "engaged",
+        "casualties": {
+          "killed": 150,
+          "wounded": 300,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 15,
+        "status": "advancing",
+        "casualties": {
+          "killed": 298,
+          "wounded": 680,
+          "captured": 128,
+          "missing": 85
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.45,
+          50.32
+        ],
+        "strength": 96,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 87,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.86,
+          50.38
+        ],
+        "strength": 91,
+        "status": "defending",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.4,
+          50.3
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.6,
+          50.35
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.38,
+          50.25
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 97,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.2,
+          49.65
+        ],
+        "strength": 96,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.25,
+          49.65
+        ],
+        "strength": 92,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -3811,8 +6841,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -4437,6 +7467,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.5,
+          50.32
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 2,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.5,
+          50.31
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 80,
+          "wounded": 160,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.51,
+          50.34
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 70,
+          "wounded": 140,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.39,
+          50.22
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 75,
+          "wounded": 150,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.18,
+          49.83
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 120,
+          "wounded": 240,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.35,
+          50.23
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 80,
+          "wounded": 160,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 70,
+        "status": "engaged",
+        "casualties": {
+          "killed": 48,
+          "wounded": 72,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.26,
+          49.88
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 6,
+          "wounded": 12,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.09,
+          49.84
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 180,
+          "wounded": 360,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.42,
+          50.3
+        ],
+        "strength": 94,
+        "status": "defending",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 85,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.85,
+          50.38
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.35,
+          50.28
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.58,
+          50.3
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.36,
+          50.24
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.55,
+          50.3
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 94,
+        "status": "defending",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.18,
+          49.68
+        ],
+        "strength": 94,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.22,
+          49.68
+        ],
+        "strength": 90,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -4509,8 +7974,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -5135,6 +8600,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.38,
+          50.32
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 3,
+          "wounded": 6,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.35,
+          50.29
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 120,
+          "wounded": 240,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.37,
+          50.32
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 105,
+          "wounded": 210,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.27,
+          50.21
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 100,
+          "wounded": 200,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.7,
+          50.05
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.13,
+          49.83
+        ],
+        "strength": 86,
+        "status": "engaged",
+        "casualties": {
+          "killed": 140,
+          "wounded": 280,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.27,
+          50.22
+        ],
+        "strength": 85,
+        "status": "engaged",
+        "casualties": {
+          "killed": 100,
+          "wounded": 200,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.75,
+          50.1
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 44,
+        "status": "reserve",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.22,
+          49.88
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 7,
+          "wounded": 14,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.03,
+          49.84
+        ],
+        "strength": 86,
+        "status": "engaged",
+        "casualties": {
+          "killed": 210,
+          "wounded": 420,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.4,
+          50.28
+        ],
+        "strength": 92,
+        "status": "defending",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 83,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.85,
+          50.38
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 85,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.28,
+          50.27
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.55,
+          50.28
+        ],
+        "strength": 89,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.35,
+          50.23
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.52,
+          50.28
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 91,
+        "status": "defending",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.15,
+          49.7
+        ],
+        "strength": 92,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.2,
+          49.7
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -5207,8 +9107,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -5833,6 +9733,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.25,
+          50.32
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 4,
+          "wounded": 8,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.2,
+          50.27
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 160,
+          "wounded": 320,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.22,
+          50.3
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 140,
+          "wounded": 280,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.75,
+          50.18
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.15,
+          50.2
+        ],
+        "strength": 85,
+        "status": "engaged",
+        "casualties": {
+          "killed": 125,
+          "wounded": 250,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.48,
+          50.04
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 22,
+          "wounded": 45,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.08,
+          49.83
+        ],
+        "strength": 84,
+        "status": "engaged",
+        "casualties": {
+          "killed": 160,
+          "wounded": 320,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.18,
+          50.21
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 120,
+          "wounded": 240,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.53,
+          50.08
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 25,
+          "wounded": 50,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 36,
+        "status": "reserve",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 8,
+          "wounded": 16,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          5.97,
+          49.84
+        ],
+        "strength": 84,
+        "status": "engaged",
+        "casualties": {
+          "killed": 240,
+          "wounded": 480,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.38,
+          50.27
+        ],
+        "strength": 90,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.85,
+          50.38
+        ],
+        "strength": 84,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.15,
+          50.25
+        ],
+        "strength": 88,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.55,
+          50.28
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.35,
+          50.23
+        ],
+        "strength": 90,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.5,
+          50.27
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.55,
+          49.85
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.5,
+          50.0
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.15,
+          49.7
+        ],
+        "strength": 90,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.2,
+          49.7
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -5867,13 +10202,13 @@
         "description": "Kampfgruppe Peiper abandons vehicles, retreats on foot"
       }
     ],
-    "significance": "The German high-water mark — 2nd Panzer reaches within 4 miles of the Meuse before being annihilated.",
+    "significance": "The German high-water mark \u2014 2nd Panzer reaches within 4 miles of the Meuse before being annihilated.",
     "details": [
       "2nd Panzer Division's spearhead reaches Celles, just 4 miles from the Meuse River",
       "Caught in the open on Christmas Day by Allied fighter-bombers and ground forces",
       "British XXX Corps positioned on the Meuse blocks any possible crossing",
       "Kampfgruppe Peiper's remnants escape on foot, abandoning all 135 vehicles",
-      "German offensive has reached its maximum extent — the \"bulge\" will now shrink"
+      "German offensive has reached its maximum extent \u2014 the \"bulge\" will now shrink"
     ]
   },
   {
@@ -5905,8 +10240,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -6531,6 +10866,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.2,
+          50.3
+        ],
+        "strength": 90,
+        "status": "engaged",
+        "casualties": {
+          "killed": 18,
+          "wounded": 27,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.12,
+          50.25
+        ],
+        "strength": 85,
+        "status": "engaged",
+        "casualties": {
+          "killed": 200,
+          "wounded": 400,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.15,
+          50.28
+        ],
+        "strength": 85,
+        "status": "engaged",
+        "casualties": {
+          "killed": 175,
+          "wounded": 350,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.4,
+          50.17
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 30,
+          "wounded": 55,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.09,
+          50.18
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 150,
+          "wounded": 300,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.25,
+          50.02
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 44,
+          "wounded": 90,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.08,
+          49.83
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 180,
+          "wounded": 360,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.12,
+          50.18
+        ],
+        "strength": 79,
+        "status": "engaged",
+        "casualties": {
+          "killed": 140,
+          "wounded": 280,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.3,
+          50.06
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 50,
+          "wounded": 100,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 28,
+        "status": "reserve",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 91,
+        "status": "engaged",
+        "casualties": {
+          "killed": 9,
+          "wounded": 18,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          5.97,
+          49.84
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 270,
+          "wounded": 540,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.38,
+          50.27
+        ],
+        "strength": 89,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 81,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.86,
+          50.38
+        ],
+        "strength": 83,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 80,
+        "status": "defending",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.18,
+          50.26
+        ],
+        "strength": 85,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.55,
+          50.28
+        ],
+        "strength": 84,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.36,
+          50.24
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.5,
+          50.27
+        ],
+        "strength": 90,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.57,
+          49.87
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.5,
+          50.0
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          4.5,
+          50.5
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.6,
+          49.88
+        ],
+        "strength": 100,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.15,
+          49.72
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.2,
+          49.72
+        ],
+        "strength": 84,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -6603,8 +11373,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -7229,6 +11999,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.15,
+          50.3
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 20,
+          "wounded": 30,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.04,
+          50.23
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 240,
+          "wounded": 480,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.08,
+          50.26
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 210,
+          "wounded": 420,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.05,
+          50.16
+        ],
+        "strength": 92,
+        "status": "engaged",
+        "casualties": {
+          "killed": 60,
+          "wounded": 110,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.03,
+          50.16
+        ],
+        "strength": 79,
+        "status": "engaged",
+        "casualties": {
+          "killed": 175,
+          "wounded": 350,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.03,
+          50.01
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 66,
+          "wounded": 135,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.08,
+          49.83
+        ],
+        "strength": 80,
+        "status": "engaged",
+        "casualties": {
+          "killed": 200,
+          "wounded": 400,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.06,
+          50.16
+        ],
+        "strength": 76,
+        "status": "engaged",
+        "casualties": {
+          "killed": 160,
+          "wounded": 320,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.08,
+          50.04
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 75,
+          "wounded": 150,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 20,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 90,
+        "status": "engaged",
+        "casualties": {
+          "killed": 10,
+          "wounded": 20,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          5.97,
+          49.84
+        ],
+        "strength": 80,
+        "status": "engaged",
+        "casualties": {
+          "killed": 300,
+          "wounded": 600,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.4,
+          50.28
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.15,
+          50.4
+        ],
+        "strength": 80,
+        "status": "defending",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.87,
+          50.38
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.73,
+          49.99
+        ],
+        "strength": 78,
+        "status": "defending",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.22,
+          50.27
+        ],
+        "strength": 83,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.56,
+          50.29
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.37,
+          50.24
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.51,
+          50.28
+        ],
+        "strength": 88,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          5.45,
+          50.2
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.58,
+          49.88
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.48,
+          49.98
+        ],
+        "strength": 97,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          5.55,
+          49.92
+        ],
+        "strength": 100,
+        "status": "reserve",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.62,
+          49.9
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 84,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.15,
+          49.72
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.2,
+          49.72
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -7301,8 +12506,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "defending",
@@ -7927,6 +13132,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.1,
+          50.3
+        ],
+        "strength": 86,
+        "status": "engaged",
+        "casualties": {
+          "killed": 22,
+          "wounded": 33,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          5.96,
+          50.21
+        ],
+        "strength": 79,
+        "status": "engaged",
+        "casualties": {
+          "killed": 280,
+          "wounded": 560,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.01,
+          50.24
+        ],
+        "strength": 79,
+        "status": "engaged",
+        "casualties": {
+          "killed": 245,
+          "wounded": 490,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          5.7,
+          50.15
+        ],
+        "strength": 88,
+        "status": "engaged",
+        "casualties": {
+          "killed": 90,
+          "wounded": 165,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          5.97,
+          50.14
+        ],
+        "strength": 76,
+        "status": "engaged",
+        "casualties": {
+          "killed": 200,
+          "wounded": 400,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          5.8,
+          50.0
+        ],
+        "strength": 84,
+        "status": "engaged",
+        "casualties": {
+          "killed": 88,
+          "wounded": 180,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.08,
+          49.83
+        ],
+        "strength": 78,
+        "status": "engaged",
+        "casualties": {
+          "killed": 220,
+          "wounded": 440,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.0,
+          50.14
+        ],
+        "strength": 73,
+        "status": "engaged",
+        "casualties": {
+          "killed": 180,
+          "wounded": 360,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          5.85,
+          50.02
+        ],
+        "strength": 84,
+        "status": "engaged",
+        "casualties": {
+          "killed": 100,
+          "wounded": 200,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 20,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 89,
+        "status": "engaged",
+        "casualties": {
+          "killed": 11,
+          "wounded": 22,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          5.97,
+          49.84
+        ],
+        "strength": 78,
+        "status": "engaged",
+        "casualties": {
+          "killed": 330,
+          "wounded": 660,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.42,
+          50.29
+        ],
+        "strength": 87,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.16,
+          50.4
+        ],
+        "strength": 79,
+        "status": "defending",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.88,
+          50.38
+        ],
+        "strength": 81,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.74,
+          50.0
+        ],
+        "strength": 77,
+        "status": "defending",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.28,
+          50.28
+        ],
+        "strength": 81,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.58,
+          50.3
+        ],
+        "strength": 81,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.38,
+          50.25
+        ],
+        "strength": 85,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.52,
+          50.28
+        ],
+        "strength": 86,
+        "status": "defending",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          5.47,
+          50.21
+        ],
+        "strength": 98,
+        "status": "moving",
+        "casualties": {
+          "killed": 0,
+          "wounded": 1,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.6,
+          49.9
+        ],
+        "strength": 90,
+        "status": "engaged",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.48,
+          49.98
+        ],
+        "strength": 94,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          5.55,
+          49.93
+        ],
+        "strength": 96,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.64,
+          49.92
+        ],
+        "strength": 93,
+        "status": "engaged",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.72,
+          49.99
+        ],
+        "strength": 82,
+        "status": "defending",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.15,
+          49.72
+        ],
+        "strength": 84,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.2,
+          49.72
+        ],
+        "strength": 80,
+        "status": "defending",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -7964,8 +13604,8 @@
     "significance": "The Luftwaffe's last major operation destroys Allied aircraft but irreversibly guts German air power.",
     "details": [
       "Operation Bodenplatte: 900 Luftwaffe aircraft attack Allied airfields on New Year's Day",
-      "465 Allied aircraft destroyed on the ground — a tactical success",
-      "277 German pilots killed or captured — an irreplaceable strategic loss",
+      "465 Allied aircraft destroyed on the ground \u2014 a tactical success",
+      "277 German pilots killed or captured \u2014 an irreplaceable strategic loss",
       "German ground attacks at Bastogne and in Alsace (Operation Nordwind) fail",
       "The battle settles into a war of attrition that Germany cannot win"
     ]
@@ -7999,8 +13639,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.8,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 92,
         "status": "engaged",
@@ -8625,6 +14265,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.25,
+          50.32
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 24,
+          "wounded": 36,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.16,
+          50.26
+        ],
+        "strength": 52,
+        "status": "retreating",
+        "casualties": {
+          "killed": 420,
+          "wounded": 840,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.19,
+          50.29
+        ],
+        "strength": 52,
+        "status": "retreating",
+        "casualties": {
+          "killed": 360,
+          "wounded": 720,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          5.95,
+          50.17
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 300,
+          "wounded": 600,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.17,
+          50.19
+        ],
+        "strength": 52,
+        "status": "retreating",
+        "casualties": {
+          "killed": 264,
+          "wounded": 528,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.02,
+          50.03
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 240,
+          "wounded": 480,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.18,
+          49.85
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 240,
+          "wounded": 480,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.18,
+          50.19
+        ],
+        "strength": 52,
+        "status": "retreating",
+        "casualties": {
+          "killed": 216,
+          "wounded": 432,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.07,
+          50.05
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 264,
+          "wounded": 528,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 20,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 88,
+        "status": "retreating",
+        "casualties": {
+          "killed": 12,
+          "wounded": 24,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.09,
+          49.86
+        ],
+        "strength": 64,
+        "status": "retreating",
+        "casualties": {
+          "killed": 360,
+          "wounded": 720,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.48,
+          50.3
+        ],
+        "strength": 86,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.18,
+          50.4
+        ],
+        "strength": 78,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.92,
+          50.39
+        ],
+        "strength": 80,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.78,
+          50.01
+        ],
+        "strength": 76,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 12,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.35,
+          50.29
+        ],
+        "strength": 80,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.62,
+          50.31
+        ],
+        "strength": 80,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.42,
+          50.26
+        ],
+        "strength": 84,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.55,
+          50.29
+        ],
+        "strength": 85,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          5.52,
+          50.22
+        ],
+        "strength": 96,
+        "status": "attacking",
+        "casualties": {
+          "killed": 0,
+          "wounded": 2,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.65,
+          49.92
+        ],
+        "strength": 88,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.52,
+          50.0
+        ],
+        "strength": 91,
+        "status": "attacking",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          5.58,
+          49.95
+        ],
+        "strength": 92,
+        "status": "attacking",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.68,
+          49.94
+        ],
+        "strength": 90,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 5,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.78,
+          50
+        ],
+        "strength": 81,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.18,
+          49.75
+        ],
+        "strength": 82,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.22,
+          49.75
+        ],
+        "strength": 78,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -8662,7 +14737,7 @@
     "significance": "The Allied pincer movement begins squeezing the Bulge from north and south simultaneously.",
     "details": [
       "First Army attacks the northern flank while Third Army pushes from the south",
-      "Temperatures drop to -20°C with deep snow making conditions brutal",
+      "Temperatures drop to -20\u00b0C with deep snow making conditions brutal",
       "German forces begin a fighting withdrawal eastward toward the Siegfried Line",
       "Frostbite and trench foot cause nearly as many casualties as combat",
       "Allied air superiority makes daylight German movement nearly impossible"
@@ -8697,8 +14772,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.82,
-          50.3
+          5.63,
+          50.58
         ],
         "strength": 90,
         "status": "engaged",
@@ -9323,6 +15398,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.4,
+          50.32
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 26,
+          "wounded": 39,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.36,
+          50.29
+        ],
+        "strength": 48,
+        "status": "retreating",
+        "casualties": {
+          "killed": 455,
+          "wounded": 910,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.37,
+          50.32
+        ],
+        "strength": 48,
+        "status": "retreating",
+        "casualties": {
+          "killed": 390,
+          "wounded": 780,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.2,
+          50.19
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 325,
+          "wounded": 650,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.37,
+          50.22
+        ],
+        "strength": 48,
+        "status": "retreating",
+        "casualties": {
+          "killed": 286,
+          "wounded": 572,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.24,
+          50.06
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 260,
+          "wounded": 520,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.28,
+          49.87
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 260,
+          "wounded": 520,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.36,
+          50.22
+        ],
+        "strength": 48,
+        "status": "retreating",
+        "casualties": {
+          "killed": 234,
+          "wounded": 468,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.29,
+          50.08
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 286,
+          "wounded": 572,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 20,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 87,
+        "status": "retreating",
+        "casualties": {
+          "killed": 13,
+          "wounded": 26,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.21,
+          49.88
+        ],
+        "strength": 61,
+        "status": "retreating",
+        "casualties": {
+          "killed": 390,
+          "wounded": 780,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.55,
+          50.32
+        ],
+        "strength": 85,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.22,
+          50.4
+        ],
+        "strength": 77,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          5.98,
+          50.39
+        ],
+        "strength": 79,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.82,
+          50.02
+        ],
+        "strength": 75,
+        "status": "attacking",
+        "casualties": {
+          "killed": 5,
+          "wounded": 12,
+          "captured": 2,
+          "missing": 5
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.42,
+          50.3
+        ],
+        "strength": 79,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.68,
+          50.32
+        ],
+        "strength": 79,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.48,
+          50.27
+        ],
+        "strength": 83,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.6,
+          50.3
+        ],
+        "strength": 84,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          5.58,
+          50.23
+        ],
+        "strength": 94,
+        "status": "attacking",
+        "casualties": {
+          "killed": 1,
+          "wounded": 3,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.7,
+          49.94
+        ],
+        "strength": 86,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.58,
+          50.02
+        ],
+        "strength": 88,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          5.63,
+          49.97
+        ],
+        "strength": 88,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.73,
+          49.96
+        ],
+        "strength": 87,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 6,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          5.85,
+          50.05
+        ],
+        "strength": 80,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.2,
+          49.78
+        ],
+        "strength": 80,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.25,
+          49.78
+        ],
+        "strength": 76,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -9395,8 +15905,8 @@
       "first-army": {
         "unitId": "first-army",
         "position": [
-          5.85,
-          50.35
+          5.63,
+          50.58
         ],
         "strength": 88,
         "status": "engaged",
@@ -10021,6 +16531,441 @@
           "captured": 0,
           "missing": 0
         }
+      },
+      "ii-ss-panzer-corps": {
+        "unitId": "ii-ss-panzer-corps",
+        "position": [
+          6.55,
+          50.32
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 28,
+          "wounded": 42,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "2nd-ss-panzer": {
+        "unitId": "2nd-ss-panzer",
+        "position": [
+          6.56,
+          50.32
+        ],
+        "strength": 44,
+        "status": "retreating",
+        "casualties": {
+          "killed": 490,
+          "wounded": 980,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-ss-panzer": {
+        "unitId": "9th-ss-panzer",
+        "position": [
+          6.55,
+          50.35
+        ],
+        "strength": 44,
+        "status": "retreating",
+        "casualties": {
+          "killed": 420,
+          "wounded": 840,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "9th-panzer": {
+        "unitId": "9th-panzer",
+        "position": [
+          6.45,
+          50.21
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 350,
+          "wounded": 700,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "3rd-panzergrenadier": {
+        "unitId": "3rd-panzergrenadier",
+        "position": [
+          6.57,
+          50.25
+        ],
+        "strength": 44,
+        "status": "retreating",
+        "casualties": {
+          "killed": 308,
+          "wounded": 616,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "15th-panzergrenadier": {
+        "unitId": "15th-panzergrenadier",
+        "position": [
+          6.46,
+          50.09
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 280,
+          "wounded": 560,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "276th-vgd": {
+        "unitId": "276th-vgd",
+        "position": [
+          6.38,
+          49.89
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 280,
+          "wounded": 560,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-begleit": {
+        "unitId": "fuhrer-begleit",
+        "position": [
+          6.54,
+          50.25
+        ],
+        "strength": 44,
+        "status": "retreating",
+        "casualties": {
+          "killed": 252,
+          "wounded": 504,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "fuhrer-grenadier": {
+        "unitId": "fuhrer-grenadier",
+        "position": [
+          6.51,
+          50.11
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 308,
+          "wounded": 616,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "150th-panzer-brigade": {
+        "unitId": "150th-panzer-brigade",
+        "position": [
+          6.06,
+          50.24
+        ],
+        "strength": 20,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 50,
+          "wounded": 80,
+          "captured": 0,
+          "missing": 30
+        }
+      },
+      "lxxxv-corps": {
+        "unitId": "lxxxv-corps",
+        "position": [
+          6.18,
+          49.88
+        ],
+        "strength": 86,
+        "status": "retreating",
+        "casualties": {
+          "killed": 14,
+          "wounded": 28,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-para": {
+        "unitId": "5th-para",
+        "position": [
+          6.33,
+          49.9
+        ],
+        "strength": 58,
+        "status": "retreating",
+        "casualties": {
+          "killed": 420,
+          "wounded": 840,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "stosser-group": {
+        "unitId": "stosser-group",
+        "position": [
+          6.1,
+          50.5
+        ],
+        "strength": 0,
+        "status": "destroyed",
+        "casualties": {
+          "killed": 350,
+          "wounded": 800,
+          "captured": 150,
+          "missing": 100
+        }
+      },
+      "vii-corps": {
+        "unitId": "vii-corps",
+        "position": [
+          5.65,
+          50.33
+        ],
+        "strength": 84,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "1st-infantry": {
+        "unitId": "1st-infantry",
+        "position": [
+          6.28,
+          50.4
+        ],
+        "strength": 76,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 12,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "30th-infantry": {
+        "unitId": "30th-infantry",
+        "position": [
+          6.05,
+          50.4
+        ],
+        "strength": 78,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "10th-armored": {
+        "unitId": "10th-armored",
+        "position": [
+          5.88,
+          50.03
+        ],
+        "strength": 74,
+        "status": "attacking",
+        "casualties": {
+          "killed": 5,
+          "wounded": 13,
+          "captured": 2,
+          "missing": 5
+        }
+      },
+      "2nd-armored": {
+        "unitId": "2nd-armored",
+        "position": [
+          5.5,
+          50.31
+        ],
+        "strength": 78,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "3rd-armored": {
+        "unitId": "3rd-armored",
+        "position": [
+          5.75,
+          50.33
+        ],
+        "strength": 78,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 11,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "84th-infantry": {
+        "unitId": "84th-infantry",
+        "position": [
+          5.55,
+          50.28
+        ],
+        "strength": 82,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 9,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "75th-infantry": {
+        "unitId": "75th-infantry",
+        "position": [
+          5.67,
+          50.31
+        ],
+        "strength": 83,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "83rd-infantry": {
+        "unitId": "83rd-infantry",
+        "position": [
+          5.65,
+          50.24
+        ],
+        "strength": 92,
+        "status": "attacking",
+        "casualties": {
+          "killed": 1,
+          "wounded": 4,
+          "captured": 0,
+          "missing": 1
+        }
+      },
+      "87th-infantry": {
+        "unitId": "87th-infantry",
+        "position": [
+          5.76,
+          49.96
+        ],
+        "strength": 84,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "17th-airborne": {
+        "unitId": "17th-airborne",
+        "position": [
+          5.65,
+          50.04
+        ],
+        "strength": 86,
+        "status": "attacking",
+        "casualties": {
+          "killed": 2,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 2
+        }
+      },
+      "11th-armored": {
+        "unitId": "11th-armored",
+        "position": [
+          5.7,
+          49.99
+        ],
+        "strength": 85,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 7,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "6th-armored": {
+        "unitId": "6th-armored",
+        "position": [
+          5.8,
+          49.98
+        ],
+        "strength": 84,
+        "status": "attacking",
+        "casualties": {
+          "killed": 3,
+          "wounded": 8,
+          "captured": 1,
+          "missing": 3
+        }
+      },
+      "705th-td": {
+        "unitId": "705th-td",
+        "position": [
+          6,
+          50.1
+        ],
+        "strength": 79,
+        "status": "attacking",
+        "casualties": {
+          "killed": 4,
+          "wounded": 10,
+          "captured": 2,
+          "missing": 4
+        }
+      },
+      "xii-corps": {
+        "unitId": "xii-corps",
+        "position": [
+          6.25,
+          49.8
+        ],
+        "strength": 78,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
+      },
+      "5th-infantry": {
+        "unitId": "5th-infantry",
+        "position": [
+          6.28,
+          49.8
+        ],
+        "strength": 74,
+        "status": "engaged",
+        "casualties": {
+          "killed": 0,
+          "wounded": 0,
+          "captured": 0,
+          "missing": 0
+        }
       }
     },
     "combatEvents": [
@@ -10055,7 +17000,7 @@
         "description": "German forces complete withdrawal to start positions"
       }
     ],
-    "significance": "Germany's last gamble has failed — the road to the Rhine and final victory lies open.",
+    "significance": "Germany's last gamble has failed \u2014 the road to the Rhine and final victory lies open.",
     "details": [
       "Last German forces pushed back to their starting positions on the Siegfried Line",
       "Germany lost ~100,000 casualties and 800 tanks it could not replace",

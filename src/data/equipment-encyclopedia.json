@@ -1,0 +1,616 @@
+{
+  "items": {
+    "M1 Garand": {
+      "name": "M1 Garand",
+      "category": "small_arms",
+      "subcategory": "Rifle",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".30-06 Springfield",
+        "Action": "Gas-operated, semi-automatic",
+        "Rate of Fire": "40-50 rounds/min",
+        "Effective Range": "440 yards",
+        "Weight": "9.5 lbs"
+      },
+      "description": "The standard-issue U.S. infantry rifle. General Patton called it 'the greatest battle implement ever devised.' Its semi-automatic action gave American infantry a significant firepower advantage over German bolt-action rifles.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "106th-infantry", "28th-infantry", "4th-infantry", "82nd-airborne", "101st-airborne", "26th-infantry", "80th-infantry", "5th-infantry"]
+    },
+    "M1 Carbine": {
+      "name": "M1 Carbine",
+      "category": "small_arms",
+      "subcategory": "Carbine",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".30 Carbine",
+        "Action": "Gas-operated, semi-automatic",
+        "Rate of Fire": "45 rounds/min",
+        "Effective Range": "300 yards",
+        "Weight": "5.2 lbs"
+      },
+      "description": "A lightweight semi-automatic carbine issued to officers, NCOs, and support troops. While less powerful than the M1 Garand, its compact size made it popular with paratroopers and vehicle crews. Over 6 million were produced during the war.",
+      "usedBy": ["82nd-airborne", "101st-airborne", "7th-armored", "9th-armored", "4th-armored"]
+    },
+    "BAR": {
+      "name": "BAR",
+      "category": "small_arms",
+      "subcategory": "Automatic Rifle",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".30-06 Springfield",
+        "Action": "Gas-operated, select-fire",
+        "Rate of Fire": "300-650 rounds/min",
+        "Effective Range": "600 yards",
+        "Weight": "19.4 lbs"
+      },
+      "description": "The Browning Automatic Rifle served as the squad automatic weapon for U.S. infantry. Each rifle squad typically had one BAR, providing crucial suppressive fire capability. Its weight and limited magazine capacity were offset by reliability and hitting power.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "106th-infantry", "28th-infantry", "4th-infantry", "26th-infantry", "80th-infantry", "5th-infantry"]
+    },
+    "Thompson SMG": {
+      "name": "Thompson SMG",
+      "category": "small_arms",
+      "subcategory": "Submachine Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".45 ACP",
+        "Action": "Blowback, select-fire",
+        "Rate of Fire": "600-725 rounds/min",
+        "Effective Range": "165 yards",
+        "Weight": "10.8 lbs"
+      },
+      "description": "The iconic 'Tommy Gun' was favored by NCOs and officers for close combat. The M1A1 simplified wartime variant was widely issued. Its heavy .45 caliber rounds were devastating at short range, though the weapon was expensive to manufacture.",
+      "usedBy": ["82nd-airborne", "101st-airborne", "2nd-infantry", "28th-infantry", "7th-armored"]
+    },
+    "M1917 Browning": {
+      "name": "M1917 Browning",
+      "category": "small_arms",
+      "subcategory": "Machine Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".30-06 Springfield",
+        "Action": "Recoil-operated, water-cooled",
+        "Rate of Fire": "450-600 rounds/min",
+        "Effective Range": "1,100 yards",
+        "Weight": "103 lbs (with tripod and water)",
+        "Feed": "250-round cloth belt"
+      },
+      "description": "A reliable water-cooled heavy machine gun providing sustained fire support for infantry battalions. Its water cooling system allowed continuous fire for extended periods, making it essential for defensive positions like those at Elsenborn Ridge.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "106th-infantry", "28th-infantry"]
+    },
+    "M1A1 Bazooka": {
+      "name": "M1A1 Bazooka",
+      "category": "anti_tank",
+      "subcategory": "Rocket Launcher",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "2.36 inch (60mm)",
+        "Effective Range": "150 yards",
+        "Armor Penetration": "3 inches (76mm)",
+        "Weight": "13.2 lbs",
+        "Crew": "2 (gunner + loader)"
+      },
+      "description": "The man-portable anti-tank rocket launcher gave infantry a fighting chance against German armor. While its 60mm warhead struggled against heavy tanks like the Tiger II, it was effective against lighter vehicles, bunkers, and buildings. The Germans were so impressed they developed the larger Panzerschreck based on captured Bazookas.",
+      "usedBy": ["82nd-airborne", "101st-airborne", "2nd-infantry", "28th-infantry", "4th-infantry"]
+    },
+    "M101 Howitzer": {
+      "name": "M101 Howitzer",
+      "category": "artillery",
+      "subcategory": "Field Howitzer",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "105mm",
+        "Range": "12,200 yards (7 miles)",
+        "Rate of Fire": "3 rounds/min sustained",
+        "Shell Weight": "33 lbs",
+        "Crew": "8",
+        "Weight": "4,980 lbs"
+      },
+      "description": "The workhorse of American divisional artillery. Each infantry division had three battalions of 105mm howitzers providing responsive fire support. The American artillery system, with its fire direction centers, could mass fire from multiple batteries faster than any other army in the war.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "4th-infantry", "26th-infantry", "80th-infantry", "5th-infantry"]
+    },
+    "M114 Howitzer": {
+      "name": "M114 Howitzer",
+      "category": "artillery",
+      "subcategory": "Medium Howitzer",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "155mm",
+        "Range": "16,000 yards (9 miles)",
+        "Rate of Fire": "1 round/min sustained",
+        "Shell Weight": "95 lbs",
+        "Crew": "11",
+        "Weight": "12,800 lbs"
+      },
+      "description": "The heavy hitter of American corps-level artillery. Its 155mm shells could destroy fortifications, vehicles, and troop concentrations at long range. Each infantry division had one battalion of these guns, and corps artillery groups added more for critical operations.",
+      "usedBy": ["2nd-infantry", "4th-infantry", "101st-airborne"]
+    },
+    "M4 Sherman": {
+      "name": "M4 Sherman",
+      "category": "vehicles",
+      "subcategory": "Medium Tank",
+      "nation": "United States",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "75mm M3 or 76mm M1",
+        "Armor": "51-89mm (hull front)",
+        "Engine": "400-500 hp",
+        "Top Speed": "30 mph (road)",
+        "Weight": "33.4 tons"
+      },
+      "description": "The backbone of American armored forces. While outgunned by Panthers and Tigers in direct confrontation, the Sherman was reliable, easy to maintain, and produced in overwhelming numbers. The 76mm gun variant improved its anti-armor capability. Crews in the Ardennes improvised solutions like adding sandbag armor and logging to increase protection.",
+      "usedBy": ["28th-infantry", "4th-infantry", "7th-armored", "9th-armored", "4th-armored"]
+    },
+    "M5 Stuart": {
+      "name": "M5 Stuart",
+      "category": "vehicles",
+      "subcategory": "Light Tank",
+      "nation": "United States",
+      "specs": {
+        "Crew": "4",
+        "Main Gun": "37mm M6",
+        "Armor": "29-67mm",
+        "Engine": "Twin Cadillac, 220 hp",
+        "Top Speed": "36 mph (road)",
+        "Weight": "16.5 tons"
+      },
+      "description": "Used for reconnaissance and screening. By 1944, its 37mm gun was ineffective against German medium and heavy tanks, but the Stuart remained useful for infantry support, reconnaissance, and exploitation roles. Its twin Cadillac engines were quiet and reliable.",
+      "usedBy": ["7th-armored", "9th-armored", "4th-armored"]
+    },
+    "M18 Hellcat": {
+      "name": "M18 Hellcat",
+      "category": "vehicles",
+      "subcategory": "Tank Destroyer",
+      "nation": "United States",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "76mm M1A1",
+        "Armor": "13-25mm",
+        "Engine": "Continental R-975, 400 hp",
+        "Top Speed": "55 mph (road)",
+        "Weight": "17.7 tons"
+      },
+      "description": "The fastest armored vehicle in the U.S. arsenal. The M18 relied on speed rather than armor, using 'shoot and scoot' tactics. Its 76mm gun could penetrate most German tanks from the flanks. Tank destroyer battalions played crucial roles delaying German armor in the Ardennes.",
+      "usedBy": ["7th-armored", "4th-armored"]
+    },
+    "Kar98k": {
+      "name": "Kar98k",
+      "category": "small_arms",
+      "subcategory": "Rifle",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "7.92x57mm Mauser",
+        "Action": "Bolt-action",
+        "Rate of Fire": "10-15 rounds/min",
+        "Effective Range": "550 yards",
+        "Weight": "8.2 lbs"
+      },
+      "description": "The standard German infantry rifle throughout the war. While its bolt action was slower than the semi-automatic M1 Garand, it was accurate and robust. Volksgrenadier divisions relied heavily on the Kar98k as their primary infantry weapon.",
+      "usedBy": ["12th-vgd", "3rd-para", "277th-vgd", "326th-vgd", "26th-vgd", "18th-vgd", "62nd-vgd", "560th-vgd", "352nd-vgd"]
+    },
+    "StG 44": {
+      "name": "StG 44",
+      "category": "small_arms",
+      "subcategory": "Assault Rifle",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "7.92x33mm Kurz",
+        "Action": "Gas-operated, select-fire",
+        "Rate of Fire": "500-600 rounds/min",
+        "Effective Range": "330 yards",
+        "Weight": "11.5 lbs",
+        "Magazine": "30 rounds"
+      },
+      "description": "The world's first mass-produced assault rifle. The StG 44 combined the range of a rifle with the automatic fire of a submachine gun. SS Panzer divisions received priority allocation, giving them significant close-combat firepower. Its intermediate cartridge concept influenced all modern assault rifles.",
+      "usedBy": ["1st-ss-panzer", "12th-vgd", "26th-vgd"]
+    },
+    "MG 42": {
+      "name": "MG 42",
+      "category": "small_arms",
+      "subcategory": "Machine Gun",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "7.92x57mm Mauser",
+        "Action": "Recoil-operated, air-cooled",
+        "Rate of Fire": "1,200-1,500 rounds/min",
+        "Effective Range": "1,100 yards",
+        "Weight": "25.5 lbs (gun only)",
+        "Feed": "50/250-round belt"
+      },
+      "description": "Nicknamed 'Hitler's Buzzsaw' by Allied troops for its distinctive ripping sound. The MG 42's extraordinary rate of fire made it the most feared infantry weapon of the war. German infantry tactics were built around this weapon, with each squad organized to support its MG 42.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "12th-vgd", "277th-vgd", "326th-vgd", "2nd-panzer", "panzer-lehr", "116th-panzer"]
+    },
+    "MP 40": {
+      "name": "MP 40",
+      "category": "small_arms",
+      "subcategory": "Submachine Gun",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "9x19mm Parabellum",
+        "Action": "Blowback, open bolt",
+        "Rate of Fire": "500-550 rounds/min",
+        "Effective Range": "110 yards",
+        "Weight": "8.8 lbs",
+        "Magazine": "32 rounds"
+      },
+      "description": "The standard German submachine gun, widely issued to squad leaders, paratroopers, and vehicle crews. Simple and reliable, though its straight blowback action made it less accurate than the Thompson at range. By 1944 it was being replaced by the StG 44 in frontline units.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "3rd-para", "2nd-panzer", "panzer-lehr", "116th-panzer"]
+    },
+    "FG 42": {
+      "name": "FG 42",
+      "category": "small_arms",
+      "subcategory": "Automatic Rifle",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "7.92x57mm Mauser",
+        "Action": "Gas-operated, select-fire",
+        "Rate of Fire": "750-900 rounds/min",
+        "Effective Range": "600 yards",
+        "Weight": "9.9 lbs",
+        "Magazine": "20 rounds"
+      },
+      "description": "An advanced automatic rifle designed exclusively for Luftwaffe paratroopers. Expensive and produced in small numbers, it combined full-power rifle cartridges with select-fire capability. Despite fighting as ground infantry in the Ardennes, the 3rd Parachute Division retained these specialist weapons.",
+      "usedBy": ["3rd-para"]
+    },
+    "Panzerfaust": {
+      "name": "Panzerfaust",
+      "category": "anti_tank",
+      "subcategory": "Disposable Anti-Tank Weapon",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "149mm warhead",
+        "Effective Range": "30-100 meters (varies by model)",
+        "Armor Penetration": "200mm (7.9 inches)",
+        "Weight": "6.1 lbs (Panzerfaust 60)",
+        "Crew": "1"
+      },
+      "description": "A cheap, single-use anti-tank weapon distributed in large numbers to German infantry. Despite its short range, the shaped-charge warhead could penetrate any Allied tank from any angle. In the close terrain and poor visibility of the Ardennes, the Panzerfaust was devastatingly effective against American armor.",
+      "usedBy": ["12th-vgd", "26th-vgd", "18th-vgd", "62nd-vgd", "277th-vgd", "326th-vgd", "560th-vgd", "352nd-vgd"]
+    },
+    "Nebelwerfer": {
+      "name": "Nebelwerfer",
+      "category": "artillery",
+      "subcategory": "Rocket Launcher",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "150mm (6-barrel) or 210mm (5-barrel)",
+        "Range": "7,300 yards (150mm)",
+        "Rate of Fire": "Salvo of 6 in 10 seconds",
+        "Crew": "5",
+        "Weight": "1,195 lbs"
+      },
+      "description": "Known as 'Screaming Meemies' or 'Moaning Minnies' to Allied troops for the terrifying sound of incoming rockets. While less accurate than conventional artillery, the Nebelwerfer's six-tube salvo provided devastating area fire. The psychological effect on troops under rocket bombardment was enormous.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer"]
+    },
+    "88mm Flak": {
+      "name": "88mm Flak",
+      "category": "artillery",
+      "subcategory": "Anti-Aircraft/Anti-Tank Gun",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "88mm",
+        "Range": "16,200 yards (anti-tank role)",
+        "Rate of Fire": "15-20 rounds/min",
+        "Armor Penetration": "120mm at 1,000m",
+        "Crew": "11",
+        "Weight": "16,325 lbs (Flak 41)"
+      },
+      "description": "Perhaps the most famous artillery piece of the war. Originally designed as an anti-aircraft gun, the '88' proved devastating in the anti-tank role. Its high velocity and flat trajectory could destroy any Allied tank at extreme range. German forces positioned 88mm guns to cover key road junctions in the Ardennes.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer", "panzer-lehr"]
+    },
+    "Panzer IV": {
+      "name": "Panzer IV",
+      "category": "vehicles",
+      "subcategory": "Medium Tank",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "75mm KwK 40 L/48",
+        "Armor": "80mm (hull front)",
+        "Engine": "Maybach HL 120, 300 hp",
+        "Top Speed": "24 mph (road)",
+        "Weight": "25 tons"
+      },
+      "description": "The workhorse of the Panzerwaffe throughout the war. By 1944, the Panzer IV was showing its age against heavier Allied tanks, but it remained reliable and was available in numbers. Its 75mm L/48 gun could still defeat the Sherman at combat ranges. Schurzen (side skirts) were added to protect against hollow-charge weapons.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer", "panzer-lehr", "116th-panzer"]
+    },
+    "Panther": {
+      "name": "Panther",
+      "category": "vehicles",
+      "subcategory": "Medium Tank",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "75mm KwK 42 L/70",
+        "Armor": "80-110mm (glacis plate, sloped)",
+        "Engine": "Maybach HL 230, 700 hp",
+        "Top Speed": "29 mph (road)",
+        "Weight": "44.8 tons"
+      },
+      "description": "Considered one of the best tanks of the war, the Panther combined excellent firepower, protection, and mobility. Its long-barreled 75mm gun could penetrate any Allied tank at 2,000 meters. The sloped frontal armor was nearly impervious to the standard 75mm Sherman gun. However, mechanical reliability remained a persistent problem, especially in the freezing Ardennes conditions.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer", "panzer-lehr", "116th-panzer"]
+    },
+    "Tiger II": {
+      "name": "Tiger II",
+      "category": "vehicles",
+      "subcategory": "Heavy Tank",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "88mm KwK 43 L/71",
+        "Armor": "150-185mm (turret front)",
+        "Engine": "Maybach HL 230, 700 hp",
+        "Top Speed": "26 mph (road)",
+        "Weight": "68.5 tons"
+      },
+      "description": "The fearsome 'King Tiger' was virtually impervious to frontal attack by any Allied weapon. Its 88mm L/71 gun could destroy any Allied tank at extreme range. Kampfgruppe Peiper fielded a company of these beasts in the initial assault. However, their enormous weight caused problems on the narrow Ardennes roads and bridges, and their fuel consumption was catastrophic for an army short on gasoline.",
+      "usedBy": ["1st-ss-panzer"]
+    },
+    "SdKfz 251": {
+      "name": "SdKfz 251",
+      "category": "vehicles",
+      "subcategory": "Armored Half-Track",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "2 + 10 infantry",
+        "Armament": "1-2x MG 42",
+        "Armor": "6-14.5mm",
+        "Engine": "Maybach HL 42, 100 hp",
+        "Top Speed": "33 mph (road)",
+        "Weight": "8.5 tons"
+      },
+      "description": "The standard German armored personnel carrier, used to transport Panzergrenadier infantry into battle. Produced in over 20 variants including command, mortar carrier, ambulance, and anti-tank versions. While its thin armor offered limited protection, it allowed infantry to keep pace with tanks and provided some shelter from small arms fire and shell fragments.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer", "panzer-lehr", "116th-panzer"]
+    },
+    "M2 Mortar": {
+      "name": "M2 Mortar",
+      "category": "artillery",
+      "subcategory": "Mortar",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "60mm",
+        "Range": "1,985 yards",
+        "Rate of Fire": "18 rounds/min",
+        "Shell Weight": "3 lbs",
+        "Crew": "3",
+        "Weight": "42 lbs"
+      },
+      "description": "The M2 60mm mortar provided immediate indirect fire support at the company level. Light enough to be man-carried, it could drop high-explosive and smoke rounds on enemy positions within two minutes of a call for fire. In the Ardennes, mortars were particularly effective in the forested terrain where artillery observation was limited.",
+      "usedBy": ["2nd-infantry", "101st-airborne"]
+    },
+    "M1919A4 Browning": {
+      "name": "M1919A4 Browning",
+      "category": "small_arms",
+      "subcategory": "Machine Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".30-06 Springfield",
+        "Action": "Recoil-operated, air-cooled",
+        "Rate of Fire": "400-550 rounds/min",
+        "Effective Range": "1,100 yards",
+        "Weight": "31 lbs (gun only)",
+        "Feed": "250-round belt"
+      },
+      "description": "The air-cooled variant of the Browning machine gun became the primary medium machine gun for US infantry by 1944. Lighter and more mobile than the water-cooled M1917, it was mounted on vehicles, in foxholes, and on tripods. Each infantry company had several M1919A4s providing sustained fire support.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "106th-infantry", "28th-infantry", "4th-infantry", "26th-infantry", "80th-infantry", "5th-infantry"]
+    },
+    "M2 HB": {
+      "name": "M2 HB",
+      "category": "small_arms",
+      "subcategory": "Heavy Machine Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".50 BMG (12.7mm)",
+        "Action": "Recoil-operated, air-cooled",
+        "Rate of Fire": "450-600 rounds/min",
+        "Effective Range": "2,000 yards",
+        "Weight": "84 lbs (gun) + 44 lbs (tripod)",
+        "Feed": "Belt-fed"
+      },
+      "description": "The legendary 'Ma Deuce' served in both anti-aircraft and ground roles. Its devastating .50 caliber rounds could penetrate light armor and were effective against troops, vehicles, and low-flying aircraft. Mounted on vehicles, tanks, and ground tripods throughout the Ardennes.",
+      "usedBy": ["7th-armored", "9th-armored", "4th-armored", "2nd-infantry", "28th-infantry"]
+    },
+    "M3 Grease Gun": {
+      "name": "M3 Grease Gun",
+      "category": "small_arms",
+      "subcategory": "Submachine Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": ".45 ACP",
+        "Action": "Blowback, open bolt",
+        "Rate of Fire": "350-450 rounds/min",
+        "Effective Range": "50 yards",
+        "Weight": "8 lbs",
+        "Magazine": "30 rounds"
+      },
+      "description": "Designed as a cheap replacement for the Thompson, the M3 was issued primarily to tank crews and vehicle drivers. Its compact size made it ideal for use in armored vehicles. Soldiers nicknamed it the 'Grease Gun' for its resemblance to the mechanic's tool.",
+      "usedBy": ["7th-armored", "9th-armored", "4th-armored"]
+    },
+    "M7 Priest": {
+      "name": "M7 Priest",
+      "category": "vehicles",
+      "subcategory": "Self-Propelled Gun",
+      "nation": "United States",
+      "specs": {
+        "Crew": "7",
+        "Main Gun": "105mm M2A1 howitzer",
+        "Armor": "12-62mm",
+        "Engine": "Continental R-975, 400 hp",
+        "Top Speed": "24 mph (road)",
+        "Weight": "22.9 tons"
+      },
+      "description": "The M7 mounted a 105mm howitzer on an M3 Lee chassis, providing armored divisions with mobile artillery support. Its pulpit-like machine gun ring earned it the British nickname 'Priest'. Each armored division had three battalions of these self-propelled guns.",
+      "usedBy": ["7th-armored", "9th-armored", "4th-armored"]
+    },
+    "M8 Greyhound": {
+      "name": "M8 Greyhound",
+      "category": "vehicles",
+      "subcategory": "Armored Car",
+      "nation": "United States",
+      "specs": {
+        "Crew": "4",
+        "Main Gun": "37mm M6",
+        "Armor": "6-19mm",
+        "Engine": "Hercules JXD, 110 hp",
+        "Top Speed": "55 mph (road)",
+        "Weight": "7.9 tons"
+      },
+      "description": "A fast six-wheeled armored car used for reconnaissance. While its 37mm gun was obsolete against tanks by 1944, the Greyhound excelled at scouting, screening, and security missions. Its speed on roads made it invaluable for rapid movement in the fluid Ardennes battle.",
+      "usedBy": ["7th-armored", "9th-armored"]
+    },
+    "M10 Wolverine": {
+      "name": "M10 Wolverine",
+      "category": "vehicles",
+      "subcategory": "Tank Destroyer",
+      "nation": "United States",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "3-inch M7 (76.2mm)",
+        "Armor": "12-57mm",
+        "Engine": "GM 6046, 375 hp",
+        "Top Speed": "30 mph (road)",
+        "Weight": "29.6 tons"
+      },
+      "description": "An open-topped tank destroyer built on the Sherman chassis. Its 3-inch gun could penetrate most German armor at combat ranges. Tank destroyer battalions were critical in the Ardennes, often providing the only anti-tank defense for infantry units facing panzer attacks.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "28th-infantry"]
+    },
+    "M36 Jackson": {
+      "name": "M36 Jackson",
+      "category": "vehicles",
+      "subcategory": "Tank Destroyer",
+      "nation": "United States",
+      "specs": {
+        "Crew": "5",
+        "Main Gun": "90mm M3",
+        "Armor": "12-76mm",
+        "Engine": "Ford GAA, 500 hp",
+        "Top Speed": "26 mph (road)",
+        "Weight": "28.1 tons"
+      },
+      "description": "The most powerful American tank destroyer in the ETO. Its 90mm gun could defeat the Panther's frontal armor and was one of the few Allied weapons effective against the Tiger II at reasonable ranges. M36 battalions were rushed to the Ardennes to counter German heavy armor.",
+      "usedBy": ["7th-armored", "4th-armored"]
+    },
+    "M3 Half-track": {
+      "name": "M3 Half-track",
+      "category": "vehicles",
+      "subcategory": "Armored Personnel Carrier",
+      "nation": "United States",
+      "specs": {
+        "Crew": "3 + 10 troops",
+        "Armament": "1x M2 HB .50 cal MG",
+        "Armor": "6-12mm",
+        "Engine": "White 160AX, 128 hp",
+        "Top Speed": "45 mph (road)",
+        "Weight": "9.1 tons"
+      },
+      "description": "The standard American armored personnel carrier, used to transport armored infantry into battle. Produced in vast numbers with over 40 variants including mortar carriers, ambulances, and command vehicles. Its open top left crews vulnerable to artillery airbursts in the Ardennes forests.",
+      "usedBy": ["7th-armored", "9th-armored", "4th-armored"]
+    },
+    "57mm M1 AT Gun": {
+      "name": "57mm M1 AT Gun",
+      "category": "anti_tank",
+      "subcategory": "Anti-Tank Gun",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "57mm",
+        "Effective Range": "1,000 yards",
+        "Armor Penetration": "76mm at 1,000 yards",
+        "Weight": "2,810 lbs",
+        "Crew": "5"
+      },
+      "description": "The American-produced version of the British 6-pounder anti-tank gun. Each infantry division had 57 of these guns in its anti-tank companies. While effective against Panzer IVs and lighter vehicles, the 57mm struggled against Panthers and Tigers, forcing crews to aim for side and rear shots.",
+      "usedBy": ["2nd-infantry", "99th-infantry", "106th-infantry", "28th-infantry", "4th-infantry", "26th-infantry", "80th-infantry"]
+    },
+    "M9 Bazooka": {
+      "name": "M9 Bazooka",
+      "category": "anti_tank",
+      "subcategory": "Rocket Launcher",
+      "nation": "United States",
+      "specs": {
+        "Caliber": "2.36 inch (60mm)",
+        "Effective Range": "200 yards",
+        "Armor Penetration": "3 inches (76mm)",
+        "Weight": "15.9 lbs",
+        "Crew": "2 (gunner + loader)"
+      },
+      "description": "The improved M9 model featured an aluminum barrel and optical sight, making it lighter and more accurate than the earlier M1A1. By the Battle of the Bulge, most front-line units had transitioned to the M9. While still limited against Tiger IIs, it remained effective against lighter armor and fortifications.",
+      "usedBy": ["82nd-airborne", "101st-airborne", "2nd-infantry", "28th-infantry", "4th-infantry"]
+    },
+    "StuG III": {
+      "name": "StuG III",
+      "category": "vehicles",
+      "subcategory": "Assault Gun",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "4",
+        "Main Gun": "75mm StuK 40 L/48",
+        "Armor": "80mm (superstructure front)",
+        "Engine": "Maybach HL 120, 300 hp",
+        "Top Speed": "25 mph (road)",
+        "Weight": "23.9 tons"
+      },
+      "description": "The most-produced German armored fighting vehicle of the war with over 10,000 built. The StuG III's low silhouette made it excellent for ambush tactics in the Ardennes forests. Cheaper and faster to produce than tanks, it formed the backbone of many German armored formations by late 1944.",
+      "usedBy": ["2nd-panzer", "panzer-lehr", "116th-panzer", "12th-vgd", "26th-vgd"]
+    },
+    "Panzerschreck": {
+      "name": "Panzerschreck",
+      "category": "anti_tank",
+      "subcategory": "Rocket Launcher",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "88mm",
+        "Effective Range": "150 meters",
+        "Armor Penetration": "160mm",
+        "Weight": "24.2 lbs",
+        "Crew": "2"
+      },
+      "description": "Developed after capturing American bazookas in North Africa, the Panzerschreck was larger and more powerful. Its 88mm warhead could penetrate any Allied tank. The blast shield protected the gunner from the rocket's backblast. Widely issued to Volksgrenadier and Panzergrenadier units in the Ardennes.",
+      "usedBy": ["12th-vgd", "26th-vgd", "18th-vgd", "62nd-vgd", "277th-vgd", "326th-vgd", "2nd-panzer", "panzer-lehr"]
+    },
+    "Jagdpanzer IV": {
+      "name": "Jagdpanzer IV",
+      "category": "vehicles",
+      "subcategory": "Tank Destroyer",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "4",
+        "Main Gun": "75mm PaK 39 L/48",
+        "Armor": "60-80mm (front)",
+        "Engine": "Maybach HL 120, 300 hp",
+        "Top Speed": "22 mph (road)",
+        "Weight": "24 tons"
+      },
+      "description": "A low-profile tank destroyer built on the Panzer IV chassis. Its sloped armor and excellent 75mm gun made it a formidable ambush weapon. The Jagdpanzer IV equipped the tank destroyer battalions of several panzer divisions in the Ardennes offensive.",
+      "usedBy": ["116th-panzer", "2nd-panzer"]
+    },
+    "75mm PaK 40": {
+      "name": "75mm PaK 40",
+      "category": "anti_tank",
+      "subcategory": "Anti-Tank Gun",
+      "nation": "Germany",
+      "specs": {
+        "Caliber": "75mm",
+        "Effective Range": "2,000 meters",
+        "Armor Penetration": "97mm at 1,000m",
+        "Weight": "3,307 lbs",
+        "Crew": "5"
+      },
+      "description": "The standard German anti-tank gun from 1942 onward. The PaK 40 could defeat the M4 Sherman at any combat range and was effective against most Allied armor. Its main drawback was its weight, making it difficult to manhandle in the muddy, forested Ardennes terrain.",
+      "usedBy": ["12th-vgd", "26th-vgd", "18th-vgd", "62nd-vgd", "277th-vgd", "326th-vgd", "352nd-vgd"]
+    },
+    "Wirbelwind": {
+      "name": "Wirbelwind",
+      "category": "vehicles",
+      "subcategory": "Anti-Aircraft Tank",
+      "nation": "Germany",
+      "specs": {
+        "Crew": "5",
+        "Armament": "4x 20mm Flakvierling 38",
+        "Armor": "16mm (turret)",
+        "Engine": "Maybach HL 120, 300 hp",
+        "Top Speed": "25 mph (road)",
+        "Weight": "22 tons"
+      },
+      "description": "A self-propelled anti-aircraft platform mounting four 20mm cannons on a Panzer IV chassis. While designed for air defense, the Wirbelwind was devastating against infantry and soft targets. When the weather cleared on December 23, these vehicles became critical for protecting panzer columns from Allied fighter-bombers.",
+      "usedBy": ["1st-ss-panzer", "12th-ss-panzer", "2nd-panzer"]
+    }
+  }
+}
